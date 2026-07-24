@@ -3,3 +3,9 @@
 
 # _pycache__
 __pycache__/
+
+# Trained models and checkpoints
+models/
+**/models/
+*.safetensors
+*.bin
