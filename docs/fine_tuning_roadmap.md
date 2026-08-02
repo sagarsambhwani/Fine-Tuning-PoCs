@@ -32,8 +32,8 @@ graph TD
 | PoC ID | PoC Name | Tech Stack | Key Concepts Learned |
 | :--- | :--- | :--- | :--- |
 | **PoC 1.1** | **Classical ML vs. Full Encoder Fine-Tuning** *(Completed)* | `scikit-learn`, `HuggingFace Transformers`, `DistilBERT` | TF-IDF vs. Subword embeddings, Softmax logits, Trainer API, serialization. |
-| **PoC 1.2** | **Multi-Class & Multi-Label Classification** | `BERT` / `RoBERTa`, `BCEWithLogitsLoss` | Classification heads, sigmoid multi-label thresholding, handling class imbalance (weighted loss). |
-| **PoC 1.3** | **Tokenization & Custom Vocabulary** | `AutoTokenizer`, `tokenizers` | Special tokens (`[CLS]`, `[SEP]`, `<pad>`), subword tokenizers (BPE / WordPiece), adding custom tokens without corrupting embeddings. |
+| **PoC 1.2** | **Multi-Class & Multi-Label Classification** *(Completed)* | `BERT` / `RoBERTa`, `BCEWithLogitsLoss` | Classification heads, sigmoid multi-label thresholding, handling class imbalance (weighted loss). |
+| **PoC 1.3** | **Tokenization & Custom Vocabulary** *(Completed)* | `AutoTokenizer`, `tokenizers` | Special tokens (`[CLS]`, `[SEP]`, `<pad>`), subword tokenizers (BPE / WordPiece), adding custom tokens without corrupting embeddings. |
 
 ---
 
