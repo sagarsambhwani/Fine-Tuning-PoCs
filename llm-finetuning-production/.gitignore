@@ -1,0 +1,47 @@
+# Python & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Model Checkpoints & Adapters (Large weights)
+models/adapters/*
+!models/adapters/.gitkeep
+models/merged/*
+!models/merged/.gitkeep
+models/quantized/*
+!models/quantized/.gitkeep
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Data caches & temporary artifacts
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/sample_*
+.cache/
+hf_cache/
+
+# Logs & monitoring
+wandb/
+runs/
+*.log
+
+# Jupyter & IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
