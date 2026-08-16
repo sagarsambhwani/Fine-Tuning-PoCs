@@ -41,8 +41,8 @@ graph TD
 
 | PoC ID | PoC Name | Tech Stack | Key Concepts Learned |
 | :--- | :--- | :--- | :--- |
-| **PoC 2.1** | **LoRA (Low-Rank Adaptation) from Scratch & PEFT** | `peft`, `torch`, `RoBERTa` / `Mistral` | Low-rank matrices ($W = W_0 + \frac{\alpha}{r} AB$), frozen base weights, rank ($r$) & alpha ($\alpha$) tuning, target modules (`q_proj`, `v_proj`). |
-| **PoC 2.2** | **QLoRA (4-bit Quantized LoRA)** | `bitsandbytes`, `peft`, `accelerate` | NormalFloat4 (NF4) quantization, double quantization, paged optimizers, fine-tuning 7B models on 16GB GPU memory (e.g. Colab / T4). |
+| **PoC 2.1** | **[LoRA & PEFT Fundamentals](day01_lora_explained.md)** | `peft`, `torch`, `Qwen2.5` | Low-rank adaptation ($W' = W_0 + \frac{\alpha}{r}BA$), frozen base weights, rank ($r$) & alpha ($\alpha$) tuning, target modules. Notebook: [`day01_lora.ipynb`](../llm-finetuning-production/notebooks/day01_lora.ipynb). |
+| **PoC 2.2** | **QLoRA (4-bit Quantized LoRA)** | `bitsandbytes`, `peft`, `accelerate` | NormalFloat4 (NF4) quantization, double quantization, paged optimizers, VRAM profiling. Notebook: [`day02_qlora.ipynb`](../llm-finetuning-production/notebooks/day02_qlora.ipynb). |
 | **PoC 2.3** | **Prompt Tuning & Prefix Tuning vs. LoRA** | `peft` | Soft prompts, virtual token length vs. adapter parameter efficiency, performance comparisons. |
 
 ---
@@ -51,8 +51,8 @@ graph TD
 
 | PoC ID | PoC Name | Tech Stack | Key Concepts Learned |
 | :--- | :--- | :--- | :--- |
-| **PoC 3.1** | **Supervised Fine-Tuning (SFT) for Chat** | `TRL (SFTTrainer)`, `Llama-3` / `Qwen-2.5` | ChatML prompt templates, instruction formatting (`<\|im_start\|>`), loss masking (calculating loss only on assistant responses, ignoring prompt tokens). |
-| **PoC 3.2** | **Domain-Specific Task Fine-Tuning (e.g., Text-to-SQL or JSON Extraction)** | `TRL`, `datasets`, `unsloth` | Structuring dataset targets for JSON/SQL schemas, zero-shot evaluation before vs. after fine-tuning. |
+| **PoC 3.1** | **Supervised Fine-Tuning (SFT) for Chat** | `TRL (SFTTrainer)`, `Qwen-2.5` | ChatML prompt templates, instruction formatting (`<\|im_start\|>`), loss masking (`labels = -100`). Notebook: [`day03_sft.ipynb`](../llm-finetuning-production/notebooks/day03_sft.ipynb). |
+| **PoC 3.2** | **Domain-Specific Task Fine-Tuning (Structured JSON Extraction)** | `TRL`, `peft`, `datasets` | End-to-end unstructured text to structured JSON extraction pipeline, anti-leakage splitting. Notebook: [`day04_domain_finetuning.ipynb`](../llm-finetuning-production/notebooks/day04_domain_finetuning.ipynb). |
 | **PoC 3.3** | **Continued Pre-training / Domain Adaptation** | `Transformers (DataCollatorForLanguageModeling)` | Unsupervised Causal LM (CLM) on raw domain documents (medical, legal, financial) prior to SFT. |
 
 ---
