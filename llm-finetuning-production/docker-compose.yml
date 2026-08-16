@@ -1,0 +1,21 @@
+services:
+  llm-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-json-extractor-api
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_DIR=/app/models/merged/qwen-1.5b-order-extractor
+      - DEVICE=cuda
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./models:/app/models:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
