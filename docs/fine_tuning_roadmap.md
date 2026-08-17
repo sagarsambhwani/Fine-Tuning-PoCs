@@ -42,7 +42,7 @@ graph TD
 | PoC ID | PoC Name | Tech Stack | Key Concepts Learned |
 | :--- | :--- | :--- | :--- |
 | **PoC 2.1** | **[LoRA & PEFT Fundamentals](day01_lora_explained.md)** | `peft`, `torch`, `Qwen2.5` | Low-rank adaptation ($W' = W_0 + \frac{\alpha}{r}BA$), frozen base weights, rank ($r$) & alpha ($\alpha$) tuning, target modules. Notebook: [`day01_lora.ipynb`](../llm-finetuning-production/notebooks/day01_lora.ipynb). |
-| **PoC 2.2** | **QLoRA (4-bit Quantized LoRA)** | `bitsandbytes`, `peft`, `accelerate` | NormalFloat4 (NF4) quantization, double quantization, paged optimizers, VRAM profiling. Notebook: [`day02_qlora.ipynb`](../llm-finetuning-production/notebooks/day02_qlora.ipynb). |
+| **PoC 2.2** | **[QLoRA (4-bit Quantized LoRA)](day02_qlora_explained.md)** | `bitsandbytes`, `peft`, `accelerate` | NormalFloat4 (NF4) quantization, double quantization, paged optimizers, VRAM profiling. Notebook: [`day02_qlora.ipynb`](../llm-finetuning-production/notebooks/day02_qlora.ipynb). |
 | **PoC 2.3** | **Prompt Tuning & Prefix Tuning vs. LoRA** | `peft` | Soft prompts, virtual token length vs. adapter parameter efficiency, performance comparisons. |
 
 ---

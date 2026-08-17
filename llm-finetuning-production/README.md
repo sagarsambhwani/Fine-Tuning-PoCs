@@ -65,7 +65,7 @@ An end-to-end, production-oriented LLM engineering project that guides you from 
 
 | Day | Topic | Key Deliverables & Artifacts | Primary Notebook / Script |
 |---|---|---|---|
-| **Day 1** | **LoRA & PEFT Fundamentals** | Math formulation $W' = W + (\alpha/r)BA$, parameter-efficiency calculation, adapter saving & reloading. | [`notebooks/day01_lora.ipynb`](notebooks/day01_lora.ipynb) |
+| **Day 1** | **LoRA & PEFT Fundamentals** | Math formulation $W' = W + (\alpha/r)BA$, parameter-efficiency calculation, adapter saving & reloading. | [`notebooks/day01_lora.ipynb`](notebooks/day01_lora.ipynb), [`reports/day01_lora_report.md`](reports/day01_lora_report.md) |
 | **Day 2** | **QLoRA & 4-bit Quantization** | NormalFloat4 (NF4), Double Quantization, memory profiling report vs standard LoRA. | [`notebooks/day02_qlora.ipynb`](notebooks/day02_qlora.ipynb), [`reports/day02_qlora_report.md`](reports/day02_qlora_report.md) |
 | **Day 3** | **SFT & Chat Templates** | Chat templates (`<|im_start|>`), assistant response loss masking (`labels=-100`), TRL SFTTrainer. | [`notebooks/day03_sft.ipynb`](notebooks/day03_sft.ipynb) |
 | **Day 4** | **Domain-Specific Fine-Tuning** | Unstructured text $\to$ structured JSON dataset, strict train/val/test splits, QLoRA SFT training run. | [`notebooks/day04_domain_finetuning.ipynb`](notebooks/day04_domain_finetuning.ipynb), [`reports/training_report.md`](reports/training_report.md) |
