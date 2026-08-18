@@ -51,7 +51,7 @@ graph TD
 
 | PoC ID | PoC Name | Tech Stack | Key Concepts Learned |
 | :--- | :--- | :--- | :--- |
-| **PoC 3.1** | **Supervised Fine-Tuning (SFT) for Chat** | `TRL (SFTTrainer)`, `Qwen-2.5` | ChatML prompt templates, instruction formatting (`<\|im_start\|>`), loss masking (`labels = -100`). Notebook: [`day03_sft.ipynb`](../llm-finetuning-production/notebooks/day03_sft.ipynb). |
+| **PoC 3.1** | **[Supervised Fine-Tuning (SFT) for Chat](day03_sft_explained.md)** | `TRL (SFTTrainer)`, `Qwen-2.5` | ChatML prompt templates, instruction formatting (`<\|im_start\|>`), loss masking (`labels = -100`). Notebook: [`day03_sft.ipynb`](../llm-finetuning-production/notebooks/day03_sft.ipynb). |
 | **PoC 3.2** | **Domain-Specific Task Fine-Tuning (Structured JSON Extraction)** | `TRL`, `peft`, `datasets` | End-to-end unstructured text to structured JSON extraction pipeline, anti-leakage splitting. Notebook: [`day04_domain_finetuning.ipynb`](../llm-finetuning-production/notebooks/day04_domain_finetuning.ipynb). |
 | **PoC 3.3** | **Continued Pre-training / Domain Adaptation** | `Transformers (DataCollatorForLanguageModeling)` | Unsupervised Causal LM (CLM) on raw domain documents (medical, legal, financial) prior to SFT. |
 
