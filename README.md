@@ -34,7 +34,11 @@ Fine-tune/
 │
 └── 📚 docs/                             # Deep-dive theoretical guides & roadmaps
     ├── fine_tuning_roadmap.md          # Multi-phase fine-tuning progression
-    └── day01_lora_explained.md         # LoRA & PEFT mathematical foundations
+    ├── senior_ai_engineer_handbook.md  # 7-Pillar Senior AI Engineer production guide
+    ├── adapter_deployment_strategies.md# Full fusion, Multi-LoRA, AWQ, GGUF, FastAPI
+    ├── day01_lora_explained.md         # LoRA & PEFT mathematical foundations
+    ├── day02_qlora_explained.md        # QLoRA 4-bit NF4 quantization deep dive
+    └── day03_sft_explained.md          # ChatML & Assistant Loss Masking mechanics
 ```
 
 ---
