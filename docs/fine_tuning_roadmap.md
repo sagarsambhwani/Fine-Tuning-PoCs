@@ -72,8 +72,8 @@ graph TD
 | PoC ID | PoC Name | Tech Stack | Key Concepts Learned |
 | :--- | :--- | :--- | :--- |
 | **PoC 5.1** | **LLM Evaluation Pipeline** | `lm-evaluation-harness`, `ragas`, `DeBERTa` | Automated metrics (ROUGE, BLEU, Perplexity) vs. LLM-as-a-Judge (GPT-4 / Local Judge scoring). |
-| **PoC 5.2** | **LoRA Merging & Exporting** | `peft`, `transformers` | Merging adapter weights back into base model (`merge_and_unload`), saving standalone weights for zero-overhead inference. |
-| **PoC 5.3** | **GGUF Conversion & Local Serving** | `llama.cpp`, `vLLM`, `ollama` | GGUF quantization (Q4_K_M, Q8_0), hosting fine-tuned models via vLLM or Ollama for local API access. |
+| **PoC 5.2** | **[LoRA Merging & Exporting](adapter_deployment_strategies.md#1-strategy-1-permanent-weight-fusion-merge_and_unload)** | `peft`, `transformers` | Merging adapter weights back into base model (`merge_and_unload`), saving standalone weights for zero-overhead inference. |
+| **PoC 5.3** | **[Multi-LoRA & GGUF Serving](adapter_deployment_strategies.md)** | `llama.cpp`, `vLLM`, `ollama` | Multi-LoRA dynamic swapping, GGUF quantization (Q4_K_M), hosting fine-tuned models via vLLM or Ollama for local API access. |
 
 ---
 
