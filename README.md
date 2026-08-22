@@ -33,6 +33,8 @@ Fine-tune/
 │   └── README.md
 │
 └── 📚 docs/                             # Deep-dive theoretical guides & roadmaps
+    ├── prerequisite/                   # 🧱 Progressive Prerequisite Foundations & Pedagogical Blueprint
+    ├── interview_guide/                # 🎯 Comprehensive Fine-Tuning A to Z Interview Guide (Modules 1-7)
     ├── fine_tuning_roadmap.md          # Multi-phase fine-tuning progression
     ├── senior_ai_engineer_handbook.md  # 7-Pillar Senior AI Engineer production guide
     ├── adapter_deployment_strategies.md# Full fusion, Multi-LoRA, AWQ, GGUF, FastAPI
