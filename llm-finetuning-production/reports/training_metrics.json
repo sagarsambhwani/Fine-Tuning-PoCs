@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "train_loss": 0.237460978296068,
+  "train_runtime_seconds": 4108.9594,
+  "train_samples_per_second": 0.876,
+  "epochs": 3,
+  "effective_batch_size": 8,
+  "learning_rate": 0.0002,
+  "total_steps": 450,
+  "total_tokens_trained": 477021,
+  "final_validation_loss": 0.178609,
+  "final_entropy": 0.178762,
+  "final_token_accuracy": 0.939201,
+  "hardware": "NVIDIA Tesla T4 (Google Colab, 15GB VRAM)",
+  "precision": "4-bit NF4 Base + FP16 LoRA (r=16, alpha=32)"
+}
