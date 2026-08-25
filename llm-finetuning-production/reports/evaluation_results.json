@@ -1,0 +1,39 @@
+{
+  "test_dataset": "data/processed/test.jsonl",
+  "total_test_samples": 150,
+  "base_model": {
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "json_validity_rate": 1.0,
+    "exact_match_rate": 0.8733,
+    "avg_field_accuracy": 0.9733,
+    "field_accuracies": {
+      "quantity": 0.9933,
+      "customer": 0.94,
+      "product": 0.98,
+      "amount": 0.9533,
+      "delivery_day": 1.0
+    }
+  },
+  "fine_tuned_model": {
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "adapter_path": "models/adapters/qwen-1.5b-order-extractor",
+    "json_validity_rate": 1.0,
+    "exact_match_rate": 1.0,
+    "avg_field_accuracy": 1.0,
+    "field_accuracies": {
+      "quantity": 1.0,
+      "customer": 1.0,
+      "product": 1.0,
+      "amount": 1.0,
+      "delivery_day": 1.0
+    }
+  },
+  "improvement": {
+    "exact_match_absolute_delta": "+12.67%",
+    "exact_match_relative_boost": "+14.51%",
+    "customer_field_delta": "+6.00%",
+    "amount_field_delta": "+4.67%",
+    "product_field_delta": "+2.00%",
+    "quantity_field_delta": "+0.67%"
+  }
+}
