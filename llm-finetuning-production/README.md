@@ -65,13 +65,42 @@ An end-to-end, production-oriented LLM engineering project that guides you from 
 
 | Day | Topic | Key Deliverables & Artifacts | Primary Notebook / Script |
 |---|---|---|---|
-| **Day 1** | **LoRA & PEFT Fundamentals** | Math formulation $W' = W + (\alpha/r)BA$, parameter-efficiency calculation, adapter saving & reloading. | [`notebooks/day01_lora.ipynb`](notebooks/day01_lora.ipynb), [`reports/day01_lora_report.md`](reports/day01_lora_report.md) |
-| **Day 2** | **QLoRA & 4-bit Quantization** | NormalFloat4 (NF4), Double Quantization, memory profiling report vs standard LoRA. | [`notebooks/day02_qlora.ipynb`](notebooks/day02_qlora.ipynb), [`reports/day02_qlora_report.md`](reports/day02_qlora_report.md) |
-| **Day 3** | **SFT & Chat Templates** | Chat templates (`<|im_start|>`), assistant response loss masking (`labels=-100`), TRL SFTTrainer. | [`notebooks/day03_sft.ipynb`](notebooks/day03_sft.ipynb) |
-| **Day 4** | **Domain-Specific Fine-Tuning** | Unstructured text $\to$ structured JSON dataset, strict train/val/test splits, QLoRA SFT training run. | [`notebooks/day04_domain_finetuning.ipynb`](notebooks/day04_domain_finetuning.ipynb), [`reports/training_report.md`](reports/training_report.md) |
-| **Day 5** | **Empirical Evaluation** | Zero-shot Base vs Fine-Tuned benchmark on held-out test split, JSON validity, exact match, field F1. | [`notebooks/day05_evaluation.ipynb`](notebooks/day05_evaluation.ipynb), [`reports/evaluation_report.md`](reports/evaluation_report.md) |
-| **Day 6** | **Merge & Quantize Inference** | `merge_and_unload()`, standalone weights export, latency (ms) & throughput (tokens/sec) benchmarking. | [`notebooks/day06_quantization.ipynb`](notebooks/day06_quantization.ipynb) |
+| **Day 1** | **LoRA & PEFT Fundamentals** | Math formulation $W' = W + (\alpha/r)BA$, parameter-efficiency calculation (1.19% trainable), adapter saving & reloading. | [`notebooks/day01_lora.ipynb`](notebooks/day01_lora.ipynb), [`reports/day01_lora_report.md`](reports/day01_lora_report.md) |
+| **Day 2** | **QLoRA & 4-bit Quantization** | NormalFloat4 (NF4), Double Quantization, memory profiling report vs standard LoRA (3.6 GB peak VRAM). | [`notebooks/day02_qlora.ipynb`](notebooks/day02_qlora.ipynb), [`reports/day02_qlora_report.md`](reports/day02_qlora_report.md) |
+| **Day 3** | **SFT & Chat Templates** | Chat templates (`<|im_start|>`), assistant response loss masking (`labels=-100`), TRL SFTTrainer. | [`notebooks/day03_sft.ipynb`](notebooks/day03_sft.ipynb), [`reports/day03_sft_report.md`](reports/day03_sft_report.md) |
+| **Day 4** | **Domain-Specific Fine-Tuning** | Unstructured text $\to$ structured JSON dataset, strict train/val/test splits, QLoRA SFT training run (450 steps, Loss 0.1780). | [`notebooks/day04_domain_finetuning.ipynb`](notebooks/day04_domain_finetuning.ipynb), [`reports/day04_domain_finetuning_report.md`](reports/day04_domain_finetuning_report.md), [`reports/training_report.md`](reports/training_report.md) |
+| **Day 5** | **Empirical Evaluation** | Zero-shot Base vs Fine-Tuned benchmark on 150 held-out test samples: Exact Match 87.33% $\to$ **100.00%** (+12.67%), JSON validity 100%. | [`notebooks/day05_evaluation.ipynb`](notebooks/day05_evaluation.ipynb), [`reports/day05_evaluation_report.md`](reports/day05_evaluation_report.md), [`reports/evaluation_results.json`](reports/evaluation_results.json) |
+| **Day 6** | **Merge & Quantize Inference** | `merge_and_unload()` weight fusion, standalone Safetensors export (3.09 GB), 1,725 ms latency, 22.02 tok/s throughput. | [`notebooks/day06_quantization.ipynb`](notebooks/day06_quantization.ipynb), [`reports/day06_quantization_report.md`](reports/day06_quantization_report.md) |
 | **Day 7** | **FastAPI + Docker Deployment** | Production-style FastAPI API (`/health`, `/predict`), Dockerfile, deployment guide, end-to-end smoke test. | [`notebooks/day07_deployment.ipynb`](notebooks/day07_deployment.ipynb), [`deployment/day07_deployment.md`](deployment/day07_deployment.md) |
+
+---
+
+## 📊 Empirical Production Benchmarks (Measured on NVIDIA T4 GPU)
+
+### 1. Training Convergence (Day 4 SFT Pipeline - 450 Steps)
+| Checkpoint Step | Training Loss | Validation Loss | Validation Perplexity | Mean Token Accuracy | Status |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **Step 50** | `0.2213` | `0.2092` | `1.2327` | `93.63%` | Initial learning |
+| **Step 250** | `0.1983` | `0.1874` | `1.2061` | `93.81%` | Rapid convergence |
+| **Step 450 (Final)** | **`0.1780`** | **`0.1786`** | **`1.1955`** | **`93.92%`** | Optimal checkpoint (Zero overfitting) |
+
+### 2. Held-Out Evaluation Benchmark (Day 5 - 150 Test Samples)
+| Evaluation Metric | Base Model (`Qwen2.5-1.5B`) | Fine-Tuned Model (QLoRA) | Absolute Delta | Relative Gain |
+| :--- | :---: | :---: | :---: | :---: |
+| **JSON Validity Rate** | `100.00%` | `100.00%` | `0.00%` | Baseline met |
+| **Exact Match Rate (All 5 Fields)** | `87.33%` | **`100.00%`** | **`+12.67%`** | **`+14.51%`** 🚀 |
+| **Average Field Accuracy** | `97.33%` | **`100.00%`** | **`+2.67%`** | **`+2.74%`** |
+| **`customer` Entity Extraction** | `94.00%` | **`100.00%`** | **`+6.00%`** | **`+6.38%`** |
+| **`amount` Numerical Extraction** | `95.33%` | **`100.00%`** | **`+4.67%`** | **`+4.90%`** |
+| **`product` Extraction** | `98.00%` | **`100.00%`** | **`+2.00%`** | **`+2.04%`** |
+
+### 3. Standalone Merged Inference Benchmark (Day 6 - Steady State)
+| Metric | Measured Value | Production Significance |
+| :--- | :---: | :--- |
+| **Artifact Format** | `Hugging Face Safetensors` | 3.09 GB standalone zero-copy memory-mapped weights |
+| **Runtime Dependency** | `Zero PEFT Overhead` | Native `Qwen2ForCausalLM` without LoRA branch additions |
+| **Average Request Latency** | `1,725.82 ms` | Sub-2-second end-to-end extraction per request |
+| **Inference Throughput** | `22.02 tokens/sec` | High-throughput sequential decoding on budget hardware |
 
 ---
 
@@ -270,12 +299,12 @@ docker run -d -p 8000:8000 -e DEVICE=cpu --name json-extractor-api llm-json-extr
 
 Mark a skill as verified **only** after personally executing the corresponding notebook/module and inspecting the empirical outputs:
 
-- [ ] **LoRA**: Understand low-rank matrix decomposition $W' = W + (\alpha/r)BA$, freezing base weights, and parameter efficiency.
-- [ ] **QLoRA**: Understand 4-bit NormalFloat (NF4), double quantization, paged optimizers, and VRAM reduction.
-- [ ] **PEFT**: Configured `LoraConfig`, `get_peft_model`, saved and reloaded adapters.
-- [ ] **SFT**: Formatted instruction datasets with chat templates and applied assistant loss masking (`labels=-100`).
-- [ ] **Dataset Preparation**: Generated stratified datasets with anti-leakage verification.
-- [ ] **LLM Evaluation**: Benchmarked Base vs. Fine-Tuned models on held-out test splits (JSON validity, exact match, field accuracy).
-- [ ] **Adapter Merging**: Fused adapter weights using `merge_and_unload()` into standalone Safetensors.
+- [x] **LoRA**: Understand low-rank matrix decomposition $W' = W + (\alpha/r)BA$, freezing base weights, and parameter efficiency.
+- [x] **QLoRA**: Understand 4-bit NormalFloat (NF4), double quantization, paged optimizers, and VRAM reduction.
+- [x] **PEFT**: Configured `LoraConfig`, `get_peft_model`, saved and reloaded adapters.
+- [x] **SFT**: Formatted instruction datasets with chat templates and applied assistant loss masking (`labels=-100`).
+- [x] **Dataset Preparation**: Generated stratified datasets with anti-leakage verification.
+- [x] **LLM Evaluation**: Benchmarked Base vs. Fine-Tuned models on held-out test splits (JSON validity, exact match, field accuracy).
+- [x] **Adapter Merging**: Fused adapter weights using `merge_and_unload()` into standalone Safetensors.
 - [ ] **FastAPI Serving**: Built REST endpoints (`/health`, `/predict`) with Lifespan weight preloading.
 - [ ] **Docker Containerization**: Wrote production Dockerfile with healthchecks and smoke tested end-to-end.
