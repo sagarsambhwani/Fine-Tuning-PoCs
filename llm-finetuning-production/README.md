@@ -306,5 +306,5 @@ Mark a skill as verified **only** after personally executing the corresponding n
 - [x] **Dataset Preparation**: Generated stratified datasets with anti-leakage verification.
 - [x] **LLM Evaluation**: Benchmarked Base vs. Fine-Tuned models on held-out test splits (JSON validity, exact match, field accuracy).
 - [x] **Adapter Merging**: Fused adapter weights using `merge_and_unload()` into standalone Safetensors.
-- [ ] **FastAPI Serving**: Built REST endpoints (`/health`, `/predict`) with Lifespan weight preloading.
-- [ ] **Docker Containerization**: Wrote production Dockerfile with healthchecks and smoke tested end-to-end.
+- [x] **FastAPI Serving**: Built REST endpoints (`/health`, `/predict`) with Lifespan weight preloading.
+- [x] **Docker Containerization**: Wrote production Dockerfile with healthchecks and smoke tested end-to-end.
