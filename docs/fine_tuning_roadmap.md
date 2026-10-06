@@ -86,6 +86,18 @@ graph TD
 
 ---
 
+## 📌 Phase 7: Ontologies & Graph AI Benchmark (Pure LLM vs. Hybrid GNN+LLM)
+*Detailed Roadmap: [`step_by_step_plan_llm_vs_gnn.md`](step_by_step_plan_llm_vs_gnn.md)* | *Specification: [`track_spec_llm_vs_gnn_ontology.md`](track_spec_llm_vs_gnn_ontology.md)*
+
+| PoC ID | PoC Name | Tech Stack | Key Concepts Learned |
+| :--- | :--- | :--- | :--- |
+| **PoC 7.1** | **Ontology Schema & Multi-Task KG Generator** | `json`, `pydantic`, `networkx` | Formal ontology modeling (Entity classes, relation constraints), synthetic KG generator with 0% data leakage across 3 benchmark tasks (IE, Multi-Hop, Link Prediction). |
+| **PoC 7.2** | **Track 1: Pure LLM Fine-Tuning (Language-Native)** | `Qwen-2.5-1.5B`, `peft (QLoRA)`, `trl` | Serializing graph topology into triples & Turtle text; fine-tuning standard autoregressive transformer on relational graph reasoning. |
+| **PoC 7.3** | **Track 2: Hybrid GNN + LLM Multimodal Architecture** | `torch_geometric` (PyG), `PyTorch`, `Qwen-2.5` | Non-Euclidean GCN/GAT topological encoder, MLP alignment projector ($\mathbb{R}^{128} \to \mathbb{R}^{1536}$), injecting "virtual graph prefix tokens" into LLM context window. |
+| **PoC 7.4** | **Head-to-Head Comparative Benchmark** | `scikit-learn`, `evaluate`, `matplotlib` | Empirical comparison on Triplet F1, Multi-Hop Deduction Accuracy, Link Prediction MRR, VRAM footprint, and inference latency (ms). |
+
+---
+
 ## 🛠️ Recommended Setup & Tools
 
 - **Frameworks**: PyTorch, Hugging Face (`transformers`, `peft`, `trl`, `datasets`, `accelerate`), Unsloth.

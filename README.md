@@ -32,10 +32,19 @@ Fine-tune/
 │   ├── custom_tokenizer.py             # BPE / WordPiece, adding custom tokens
 │   └── README.md
 │
+├── 🧠 llm-graph-ontology/              # ⭐ Phase 7: Ontologies & Graph AI Benchmark
+│   ├── configs/                        # Track 1 (Pure LLM) & Track 2 (GNN+LLM) configs
+│   ├── data/                           # Formal ontology schema & synthetic multi-task KG
+│   ├── src/                            # GNN encoder (PyG), MLP Projector, QLoRA SFT training
+│   ├── notebooks/                      # 4 progressive experiment & benchmark notebooks
+│   └── README.md                       # Pure LLM vs Hybrid GNN+LLM head-to-head report
+│
 └── 📚 docs/                             # Deep-dive theoretical guides & roadmaps
     ├── prerequisite/                   # 🧱 Progressive Prerequisite Foundations & Pedagogical Blueprint
     ├── interview_guide/                # 🎯 Comprehensive Fine-Tuning A to Z Interview Guide (Modules 1-7)
     ├── fine_tuning_roadmap.md          # Multi-phase fine-tuning progression
+    ├── step_by_step_plan_llm_vs_gnn.md # 📋 Step-by-step execution roadmap for Graph AI benchmark
+    ├── track_spec_llm_vs_gnn_ontology.md # 🔬 Technical specification for LLM vs GNN+LLM
     ├── senior_ai_engineer_handbook.md  # 7-Pillar Senior AI Engineer production guide
     ├── adapter_deployment_strategies.md# Full fusion, Multi-LoRA, AWQ, GGUF, FastAPI
     ├── day01_lora_explained.md         # LoRA & PEFT mathematical foundations
