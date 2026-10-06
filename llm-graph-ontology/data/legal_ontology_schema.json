@@ -1,0 +1,59 @@
+{
+  "ontology_name": "CorporateLitigationOntology",
+  "version": "1.0.0",
+  "description": "Formal legal ontology defining corporate litigation parties, causes of action, court jurisdictions, precedents, and statutory remedies.",
+  "entity_classes": [
+    {
+      "class": "Party",
+      "description": "Corporate entities, individuals, or governmental agencies involved in litigation."
+    },
+    {
+      "class": "Court",
+      "description": "Judicial bodies and appellate courts with statutory jurisdiction."
+    },
+    {
+      "class": "LegalClaim",
+      "description": "Causes of action, claims, or statutory violations (e.g., BreachOfContract, PatentInfringement)."
+    },
+    {
+      "class": "PrecedentCase",
+      "description": "Binding or persuasive appellate legal precedents."
+    },
+    {
+      "class": "LegalRemedy",
+      "description": "Court-awarded relief, damages, injunctions, or penalties."
+    }
+  ],
+  "allowed_relations": [
+    {
+      "relation": "FILES_CLAIM_AGAINST",
+      "domain": "Party",
+      "range": "Party",
+      "description": "Plaintiff files an action or lawsuit against Defendant."
+    },
+    {
+      "relation": "ADJUDICATED_BY",
+      "domain": "LegalClaim",
+      "range": "Court",
+      "description": "A legal claim is heard and decided by a specific court."
+    },
+    {
+      "relation": "APPLIES_PRECEDENT",
+      "domain": "Court",
+      "range": "PrecedentCase",
+      "description": "Court follows and applies binding precedent case law."
+    },
+    {
+      "relation": "ESTABLISHES_REMEDY",
+      "domain": "PrecedentCase",
+      "range": "LegalRemedy",
+      "description": "Precedent case establishes standard for awarding specific remedy."
+    },
+    {
+      "relation": "LIABLE_FOR",
+      "domain": "Party",
+      "range": "LegalRemedy",
+      "description": "Defendant party is held liable to pay or fulfill a legal remedy."
+    }
+  ]
+}

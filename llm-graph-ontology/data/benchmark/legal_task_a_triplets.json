@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "legal_task_a_000",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, HorizonMediaGroup officially files a claim against NovaPharmaCorp. The underlying claim of TradeSecretMisappropriation was formally adjudicated by the SecondCircuitAppeals. Following findings of liability, the court ruled that NovaPharmaCorp is liable for PermanentInjunction.",
+    "target_triples": [
+      {
+        "subject": "HorizonMediaGroup",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NovaPharmaCorp"
+      },
+      {
+        "subject": "TradeSecretMisappropriation",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SecondCircuitAppeals"
+      },
+      {
+        "subject": "NovaPharmaCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "PermanentInjunction"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_001",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, BioGenixLabs officially files a claim against AegisCyberSec. The underlying claim of TradeSecretMisappropriation was formally adjudicated by the FederalCircuitAppeals. Following findings of liability, the court ruled that AegisCyberSec is liable for PreliminaryRestrainingOrder.",
+    "target_triples": [
+      {
+        "subject": "BioGenixLabs",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "TradeSecretMisappropriation",
+        "predicate": "ADJUDICATED_BY",
+        "object": "FederalCircuitAppeals"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "PreliminaryRestrainingOrder"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_002",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, OmniRetailCorp officially files a claim against TitanEnergyLLC. The underlying claim of TradeSecretMisappropriation was formally adjudicated by the DelawareChanceryCourt. Following findings of liability, the court ruled that TitanEnergyLLC is liable for TrebleDamages.",
+    "target_triples": [
+      {
+        "subject": "OmniRetailCorp",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "TitanEnergyLLC"
+      },
+      {
+        "subject": "TradeSecretMisappropriation",
+        "predicate": "ADJUDICATED_BY",
+        "object": "DelawareChanceryCourt"
+      },
+      {
+        "subject": "TitanEnergyLLC",
+        "predicate": "LIABLE_FOR",
+        "object": "TrebleDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_003",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, QuantumTechLLC officially files a claim against AegisCyberSec. The underlying claim of BreachOfContract was formally adjudicated by the SouthernDistrictNewYork. Following findings of liability, the court ruled that AegisCyberSec is liable for DisgorgementOfProfits.",
+    "target_triples": [
+      {
+        "subject": "QuantumTechLLC",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "BreachOfContract",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SouthernDistrictNewYork"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "DisgorgementOfProfits"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_004",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, VanguardLogistics officially files a claim against TitanEnergyLLC. The underlying claim of BreachOfContract was formally adjudicated by the NorthernDistrictCalifornia. Following findings of liability, the court ruled that TitanEnergyLLC is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "VanguardLogistics",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "TitanEnergyLLC"
+      },
+      {
+        "subject": "BreachOfContract",
+        "predicate": "ADJUDICATED_BY",
+        "object": "NorthernDistrictCalifornia"
+      },
+      {
+        "subject": "TitanEnergyLLC",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_005",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, OmniRetailCorp officially files a claim against NovaPharmaCorp. The underlying claim of TortiousInterference was formally adjudicated by the DelawareChanceryCourt. Following findings of liability, the court ruled that NovaPharmaCorp is liable for PreliminaryRestrainingOrder.",
+    "target_triples": [
+      {
+        "subject": "OmniRetailCorp",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NovaPharmaCorp"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "DelawareChanceryCourt"
+      },
+      {
+        "subject": "NovaPharmaCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "PreliminaryRestrainingOrder"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_006",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, VanguardLogistics officially files a claim against GlobalSupplyChainLtd. The underlying claim of FiduciaryDutyBreach was formally adjudicated by the NorthernDistrictCalifornia. Following findings of liability, the court ruled that GlobalSupplyChainLtd is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "VanguardLogistics",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "GlobalSupplyChainLtd"
+      },
+      {
+        "subject": "FiduciaryDutyBreach",
+        "predicate": "ADJUDICATED_BY",
+        "object": "NorthernDistrictCalifornia"
+      },
+      {
+        "subject": "GlobalSupplyChainLtd",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_007",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, QuantumTechLLC officially files a claim against NexusRoboticsCorp. The underlying claim of FiduciaryDutyBreach was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that NexusRoboticsCorp is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "QuantumTechLLC",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NexusRoboticsCorp"
+      },
+      {
+        "subject": "FiduciaryDutyBreach",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "NexusRoboticsCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_008",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, HorizonMediaGroup officially files a claim against DeltaSystemsInc. The underlying claim of PatentInfringement was formally adjudicated by the SouthernDistrictNewYork. Following findings of liability, the court ruled that DeltaSystemsInc is liable for PreliminaryRestrainingOrder.",
+    "target_triples": [
+      {
+        "subject": "HorizonMediaGroup",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "DeltaSystemsInc"
+      },
+      {
+        "subject": "PatentInfringement",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SouthernDistrictNewYork"
+      },
+      {
+        "subject": "DeltaSystemsInc",
+        "predicate": "LIABLE_FOR",
+        "object": "PreliminaryRestrainingOrder"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_009",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against GlobalSupplyChainLtd. The underlying claim of BreachOfContract was formally adjudicated by the SecondCircuitAppeals. Following findings of liability, the court ruled that GlobalSupplyChainLtd is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "GlobalSupplyChainLtd"
+      },
+      {
+        "subject": "BreachOfContract",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SecondCircuitAppeals"
+      },
+      {
+        "subject": "GlobalSupplyChainLtd",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_010",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, OmniRetailCorp officially files a claim against DeltaSystemsInc. The underlying claim of FiduciaryDutyBreach was formally adjudicated by the FederalCircuitAppeals. Following findings of liability, the court ruled that DeltaSystemsInc is liable for PreliminaryRestrainingOrder.",
+    "target_triples": [
+      {
+        "subject": "OmniRetailCorp",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "DeltaSystemsInc"
+      },
+      {
+        "subject": "FiduciaryDutyBreach",
+        "predicate": "ADJUDICATED_BY",
+        "object": "FederalCircuitAppeals"
+      },
+      {
+        "subject": "DeltaSystemsInc",
+        "predicate": "LIABLE_FOR",
+        "object": "PreliminaryRestrainingOrder"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_011",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, VanguardLogistics officially files a claim against AegisCyberSec. The underlying claim of BreachOfContract was formally adjudicated by the NorthernDistrictCalifornia. Following findings of liability, the court ruled that AegisCyberSec is liable for StatutoryLiquidatedDamages.",
+    "target_triples": [
+      {
+        "subject": "VanguardLogistics",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "BreachOfContract",
+        "predicate": "ADJUDICATED_BY",
+        "object": "NorthernDistrictCalifornia"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "StatutoryLiquidatedDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_012",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, BioGenixLabs officially files a claim against NexusRoboticsCorp. The underlying claim of TortiousInterference was formally adjudicated by the SecondCircuitAppeals. Following findings of liability, the court ruled that NexusRoboticsCorp is liable for PermanentInjunction.",
+    "target_triples": [
+      {
+        "subject": "BioGenixLabs",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NexusRoboticsCorp"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SecondCircuitAppeals"
+      },
+      {
+        "subject": "NexusRoboticsCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "PermanentInjunction"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_013",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against AegisCyberSec. The underlying claim of SecuritiesFraud was formally adjudicated by the SouthernDistrictNewYork. Following findings of liability, the court ruled that AegisCyberSec is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "SecuritiesFraud",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SouthernDistrictNewYork"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_014",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, VanguardLogistics officially files a claim against NexusRoboticsCorp. The underlying claim of SecuritiesFraud was formally adjudicated by the SecondCircuitAppeals. Following findings of liability, the court ruled that NexusRoboticsCorp is liable for PreliminaryRestrainingOrder.",
+    "target_triples": [
+      {
+        "subject": "VanguardLogistics",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NexusRoboticsCorp"
+      },
+      {
+        "subject": "SecuritiesFraud",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SecondCircuitAppeals"
+      },
+      {
+        "subject": "NexusRoboticsCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "PreliminaryRestrainingOrder"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_015",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, VanguardLogistics officially files a claim against NovaPharmaCorp. The underlying claim of TortiousInterference was formally adjudicated by the FederalCircuitAppeals. Following findings of liability, the court ruled that NovaPharmaCorp is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "VanguardLogistics",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NovaPharmaCorp"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "FederalCircuitAppeals"
+      },
+      {
+        "subject": "NovaPharmaCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_016",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against NovaPharmaCorp. The underlying claim of TradeSecretMisappropriation was formally adjudicated by the SouthernDistrictNewYork. Following findings of liability, the court ruled that NovaPharmaCorp is liable for PermanentInjunction.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NovaPharmaCorp"
+      },
+      {
+        "subject": "TradeSecretMisappropriation",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SouthernDistrictNewYork"
+      },
+      {
+        "subject": "NovaPharmaCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "PermanentInjunction"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_017",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, HorizonMediaGroup officially files a claim against AegisCyberSec. The underlying claim of TradeSecretMisappropriation was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that AegisCyberSec is liable for PermanentInjunction.",
+    "target_triples": [
+      {
+        "subject": "HorizonMediaGroup",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "TradeSecretMisappropriation",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "PermanentInjunction"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_018",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, OmniRetailCorp officially files a claim against NexusRoboticsCorp. The underlying claim of PatentInfringement was formally adjudicated by the SouthernDistrictNewYork. Following findings of liability, the court ruled that NexusRoboticsCorp is liable for TrebleDamages.",
+    "target_triples": [
+      {
+        "subject": "OmniRetailCorp",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NexusRoboticsCorp"
+      },
+      {
+        "subject": "PatentInfringement",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SouthernDistrictNewYork"
+      },
+      {
+        "subject": "NexusRoboticsCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "TrebleDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_019",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, QuantumTechLLC officially files a claim against NovaPharmaCorp. The underlying claim of PatentInfringement was formally adjudicated by the NorthernDistrictCalifornia. Following findings of liability, the court ruled that NovaPharmaCorp is liable for DisgorgementOfProfits.",
+    "target_triples": [
+      {
+        "subject": "QuantumTechLLC",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NovaPharmaCorp"
+      },
+      {
+        "subject": "PatentInfringement",
+        "predicate": "ADJUDICATED_BY",
+        "object": "NorthernDistrictCalifornia"
+      },
+      {
+        "subject": "NovaPharmaCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "DisgorgementOfProfits"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_020",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against GlobalSupplyChainLtd. The underlying claim of BreachOfContract was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that GlobalSupplyChainLtd is liable for PermanentInjunction.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "GlobalSupplyChainLtd"
+      },
+      {
+        "subject": "BreachOfContract",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "GlobalSupplyChainLtd",
+        "predicate": "LIABLE_FOR",
+        "object": "PermanentInjunction"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_021",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, HorizonMediaGroup officially files a claim against TitanEnergyLLC. The underlying claim of SecuritiesFraud was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that TitanEnergyLLC is liable for DisgorgementOfProfits.",
+    "target_triples": [
+      {
+        "subject": "HorizonMediaGroup",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "TitanEnergyLLC"
+      },
+      {
+        "subject": "SecuritiesFraud",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "TitanEnergyLLC",
+        "predicate": "LIABLE_FOR",
+        "object": "DisgorgementOfProfits"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_022",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, OmniRetailCorp officially files a claim against TitanEnergyLLC. The underlying claim of BreachOfContract was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that TitanEnergyLLC is liable for StatutoryLiquidatedDamages.",
+    "target_triples": [
+      {
+        "subject": "OmniRetailCorp",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "TitanEnergyLLC"
+      },
+      {
+        "subject": "BreachOfContract",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "TitanEnergyLLC",
+        "predicate": "LIABLE_FOR",
+        "object": "StatutoryLiquidatedDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_023",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, OmniRetailCorp officially files a claim against GlobalSupplyChainLtd. The underlying claim of BreachOfContract was formally adjudicated by the DelawareChanceryCourt. Following findings of liability, the court ruled that GlobalSupplyChainLtd is liable for DisgorgementOfProfits.",
+    "target_triples": [
+      {
+        "subject": "OmniRetailCorp",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "GlobalSupplyChainLtd"
+      },
+      {
+        "subject": "BreachOfContract",
+        "predicate": "ADJUDICATED_BY",
+        "object": "DelawareChanceryCourt"
+      },
+      {
+        "subject": "GlobalSupplyChainLtd",
+        "predicate": "LIABLE_FOR",
+        "object": "DisgorgementOfProfits"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_024",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, QuantumTechLLC officially files a claim against TitanEnergyLLC. The underlying claim of PatentInfringement was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that TitanEnergyLLC is liable for TrebleDamages.",
+    "target_triples": [
+      {
+        "subject": "QuantumTechLLC",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "TitanEnergyLLC"
+      },
+      {
+        "subject": "PatentInfringement",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "TitanEnergyLLC",
+        "predicate": "LIABLE_FOR",
+        "object": "TrebleDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_025",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against NovaPharmaCorp. The underlying claim of TortiousInterference was formally adjudicated by the FederalCircuitAppeals. Following findings of liability, the court ruled that NovaPharmaCorp is liable for TrebleDamages.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NovaPharmaCorp"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "FederalCircuitAppeals"
+      },
+      {
+        "subject": "NovaPharmaCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "TrebleDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_026",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against GlobalSupplyChainLtd. The underlying claim of FiduciaryDutyBreach was formally adjudicated by the DelawareChanceryCourt. Following findings of liability, the court ruled that GlobalSupplyChainLtd is liable for TrebleDamages.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "GlobalSupplyChainLtd"
+      },
+      {
+        "subject": "FiduciaryDutyBreach",
+        "predicate": "ADJUDICATED_BY",
+        "object": "DelawareChanceryCourt"
+      },
+      {
+        "subject": "GlobalSupplyChainLtd",
+        "predicate": "LIABLE_FOR",
+        "object": "TrebleDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_027",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, HorizonMediaGroup officially files a claim against NexusRoboticsCorp. The underlying claim of SecuritiesFraud was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that NexusRoboticsCorp is liable for TrebleDamages.",
+    "target_triples": [
+      {
+        "subject": "HorizonMediaGroup",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NexusRoboticsCorp"
+      },
+      {
+        "subject": "SecuritiesFraud",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "NexusRoboticsCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "TrebleDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_028",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, HorizonMediaGroup officially files a claim against AegisCyberSec. The underlying claim of TradeSecretMisappropriation was formally adjudicated by the SouthernDistrictNewYork. Following findings of liability, the court ruled that AegisCyberSec is liable for DisgorgementOfProfits.",
+    "target_triples": [
+      {
+        "subject": "HorizonMediaGroup",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "TradeSecretMisappropriation",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SouthernDistrictNewYork"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "DisgorgementOfProfits"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_029",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, BioGenixLabs officially files a claim against TitanEnergyLLC. The underlying claim of FiduciaryDutyBreach was formally adjudicated by the FederalCircuitAppeals. Following findings of liability, the court ruled that TitanEnergyLLC is liable for PermanentInjunction.",
+    "target_triples": [
+      {
+        "subject": "BioGenixLabs",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "TitanEnergyLLC"
+      },
+      {
+        "subject": "FiduciaryDutyBreach",
+        "predicate": "ADJUDICATED_BY",
+        "object": "FederalCircuitAppeals"
+      },
+      {
+        "subject": "TitanEnergyLLC",
+        "predicate": "LIABLE_FOR",
+        "object": "PermanentInjunction"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_030",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against AegisCyberSec. The underlying claim of TortiousInterference was formally adjudicated by the SouthernDistrictNewYork. Following findings of liability, the court ruled that AegisCyberSec is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SouthernDistrictNewYork"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_031",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, OmniRetailCorp officially files a claim against AegisCyberSec. The underlying claim of BreachOfContract was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that AegisCyberSec is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "OmniRetailCorp",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "BreachOfContract",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_032",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against DeltaSystemsInc. The underlying claim of FiduciaryDutyBreach was formally adjudicated by the NorthernDistrictCalifornia. Following findings of liability, the court ruled that DeltaSystemsInc is liable for DisgorgementOfProfits.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "DeltaSystemsInc"
+      },
+      {
+        "subject": "FiduciaryDutyBreach",
+        "predicate": "ADJUDICATED_BY",
+        "object": "NorthernDistrictCalifornia"
+      },
+      {
+        "subject": "DeltaSystemsInc",
+        "predicate": "LIABLE_FOR",
+        "object": "DisgorgementOfProfits"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_033",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, BioGenixLabs officially files a claim against TitanEnergyLLC. The underlying claim of TortiousInterference was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that TitanEnergyLLC is liable for PermanentInjunction.",
+    "target_triples": [
+      {
+        "subject": "BioGenixLabs",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "TitanEnergyLLC"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "TitanEnergyLLC",
+        "predicate": "LIABLE_FOR",
+        "object": "PermanentInjunction"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_034",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, HorizonMediaGroup officially files a claim against NexusRoboticsCorp. The underlying claim of TortiousInterference was formally adjudicated by the DelawareChanceryCourt. Following findings of liability, the court ruled that NexusRoboticsCorp is liable for StatutoryLiquidatedDamages.",
+    "target_triples": [
+      {
+        "subject": "HorizonMediaGroup",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NexusRoboticsCorp"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "DelawareChanceryCourt"
+      },
+      {
+        "subject": "NexusRoboticsCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "StatutoryLiquidatedDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_035",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, OmniRetailCorp officially files a claim against AegisCyberSec. The underlying claim of PatentInfringement was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that AegisCyberSec is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "OmniRetailCorp",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "PatentInfringement",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_036",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against GlobalSupplyChainLtd. The underlying claim of BreachOfContract was formally adjudicated by the DelawareChanceryCourt. Following findings of liability, the court ruled that GlobalSupplyChainLtd is liable for TrebleDamages.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "GlobalSupplyChainLtd"
+      },
+      {
+        "subject": "BreachOfContract",
+        "predicate": "ADJUDICATED_BY",
+        "object": "DelawareChanceryCourt"
+      },
+      {
+        "subject": "GlobalSupplyChainLtd",
+        "predicate": "LIABLE_FOR",
+        "object": "TrebleDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_037",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against NovaPharmaCorp. The underlying claim of BreachOfContract was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that NovaPharmaCorp is liable for TrebleDamages.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NovaPharmaCorp"
+      },
+      {
+        "subject": "BreachOfContract",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "NovaPharmaCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "TrebleDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_038",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, VanguardLogistics officially files a claim against AegisCyberSec. The underlying claim of TortiousInterference was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that AegisCyberSec is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "VanguardLogistics",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_039",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against NovaPharmaCorp. The underlying claim of TortiousInterference was formally adjudicated by the SecondCircuitAppeals. Following findings of liability, the court ruled that NovaPharmaCorp is liable for StatutoryLiquidatedDamages.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NovaPharmaCorp"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SecondCircuitAppeals"
+      },
+      {
+        "subject": "NovaPharmaCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "StatutoryLiquidatedDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_040",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, ApexHoldings officially files a claim against AegisCyberSec. The underlying claim of PatentInfringement was formally adjudicated by the SecondCircuitAppeals. Following findings of liability, the court ruled that AegisCyberSec is liable for StatutoryLiquidatedDamages.",
+    "target_triples": [
+      {
+        "subject": "ApexHoldings",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "PatentInfringement",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SecondCircuitAppeals"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "StatutoryLiquidatedDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_041",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, HorizonMediaGroup officially files a claim against NexusRoboticsCorp. The underlying claim of BreachOfContract was formally adjudicated by the NorthernDistrictCalifornia. Following findings of liability, the court ruled that NexusRoboticsCorp is liable for PermanentInjunction.",
+    "target_triples": [
+      {
+        "subject": "HorizonMediaGroup",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NexusRoboticsCorp"
+      },
+      {
+        "subject": "BreachOfContract",
+        "predicate": "ADJUDICATED_BY",
+        "object": "NorthernDistrictCalifornia"
+      },
+      {
+        "subject": "NexusRoboticsCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "PermanentInjunction"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_042",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, QuantumTechLLC officially files a claim against AegisCyberSec. The underlying claim of TortiousInterference was formally adjudicated by the SecondCircuitAppeals. Following findings of liability, the court ruled that AegisCyberSec is liable for StatutoryLiquidatedDamages.",
+    "target_triples": [
+      {
+        "subject": "QuantumTechLLC",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SecondCircuitAppeals"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "StatutoryLiquidatedDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_043",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, OmniRetailCorp officially files a claim against TitanEnergyLLC. The underlying claim of TortiousInterference was formally adjudicated by the FederalCircuitAppeals. Following findings of liability, the court ruled that TitanEnergyLLC is liable for PermanentInjunction.",
+    "target_triples": [
+      {
+        "subject": "OmniRetailCorp",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "TitanEnergyLLC"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "FederalCircuitAppeals"
+      },
+      {
+        "subject": "TitanEnergyLLC",
+        "predicate": "LIABLE_FOR",
+        "object": "PermanentInjunction"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_044",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, VanguardLogistics officially files a claim against AegisCyberSec. The underlying claim of PatentInfringement was formally adjudicated by the DelawareChanceryCourt. Following findings of liability, the court ruled that AegisCyberSec is liable for DisgorgementOfProfits.",
+    "target_triples": [
+      {
+        "subject": "VanguardLogistics",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "PatentInfringement",
+        "predicate": "ADJUDICATED_BY",
+        "object": "DelawareChanceryCourt"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "DisgorgementOfProfits"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_045",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, BioGenixLabs officially files a claim against NexusRoboticsCorp. The underlying claim of TortiousInterference was formally adjudicated by the NorthernDistrictCalifornia. Following findings of liability, the court ruled that NexusRoboticsCorp is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "BioGenixLabs",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NexusRoboticsCorp"
+      },
+      {
+        "subject": "TortiousInterference",
+        "predicate": "ADJUDICATED_BY",
+        "object": "NorthernDistrictCalifornia"
+      },
+      {
+        "subject": "NexusRoboticsCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_046",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, VanguardLogistics officially files a claim against NexusRoboticsCorp. The underlying claim of TradeSecretMisappropriation was formally adjudicated by the SupremeCourtDelaware. Following findings of liability, the court ruled that NexusRoboticsCorp is liable for PermanentInjunction.",
+    "target_triples": [
+      {
+        "subject": "VanguardLogistics",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "NexusRoboticsCorp"
+      },
+      {
+        "subject": "TradeSecretMisappropriation",
+        "predicate": "ADJUDICATED_BY",
+        "object": "SupremeCourtDelaware"
+      },
+      {
+        "subject": "NexusRoboticsCorp",
+        "predicate": "LIABLE_FOR",
+        "object": "PermanentInjunction"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_047",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, OmniRetailCorp officially files a claim against TitanEnergyLLC. The underlying claim of FiduciaryDutyBreach was formally adjudicated by the FederalCircuitAppeals. Following findings of liability, the court ruled that TitanEnergyLLC is liable for TrebleDamages.",
+    "target_triples": [
+      {
+        "subject": "OmniRetailCorp",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "TitanEnergyLLC"
+      },
+      {
+        "subject": "FiduciaryDutyBreach",
+        "predicate": "ADJUDICATED_BY",
+        "object": "FederalCircuitAppeals"
+      },
+      {
+        "subject": "TitanEnergyLLC",
+        "predicate": "LIABLE_FOR",
+        "object": "TrebleDamages"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_048",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, BioGenixLabs officially files a claim against AegisCyberSec. The underlying claim of FiduciaryDutyBreach was formally adjudicated by the FederalCircuitAppeals. Following findings of liability, the court ruled that AegisCyberSec is liable for RescissionOfAgreement.",
+    "target_triples": [
+      {
+        "subject": "BioGenixLabs",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "AegisCyberSec"
+      },
+      {
+        "subject": "FiduciaryDutyBreach",
+        "predicate": "ADJUDICATED_BY",
+        "object": "FederalCircuitAppeals"
+      },
+      {
+        "subject": "AegisCyberSec",
+        "predicate": "LIABLE_FOR",
+        "object": "RescissionOfAgreement"
+      }
+    ]
+  },
+  {
+    "id": "legal_task_a_049",
+    "task_type": "legal_triplet_extraction",
+    "input_text": "In recent corporate litigation, OmniRetailCorp officially files a claim against DeltaSystemsInc. The underlying claim of TradeSecretMisappropriation was formally adjudicated by the FederalCircuitAppeals. Following findings of liability, the court ruled that DeltaSystemsInc is liable for TrebleDamages.",
+    "target_triples": [
+      {
+        "subject": "OmniRetailCorp",
+        "predicate": "FILES_CLAIM_AGAINST",
+        "object": "DeltaSystemsInc"
+      },
+      {
+        "subject": "TradeSecretMisappropriation",
+        "predicate": "ADJUDICATED_BY",
+        "object": "FederalCircuitAppeals"
+      },
+      {
+        "subject": "DeltaSystemsInc",
+        "predicate": "LIABLE_FOR",
+        "object": "TrebleDamages"
+      }
+    ]
+  }
+]

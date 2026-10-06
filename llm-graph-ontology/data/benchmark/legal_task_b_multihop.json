@@ -1,0 +1,452 @@
+[
+  {
+    "id": "legal_task_b_000",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SecondCircuitAppeals.\nFact 2: In its bench opinion, SecondCircuitAppeals APPLIES_PRECEDENT Basic_v_Levinson.\nFact 3: Landmark ruling Basic_v_Levinson ESTABLISHES_REMEDY PermanentInjunction.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SecondCircuitAppeals?",
+    "target_2hop": "Basic_v_Levinson",
+    "query_3hop": "Following the judicial precedent chain from SecondCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PermanentInjunction"
+  },
+  {
+    "id": "legal_task_b_001",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before FederalCircuitAppeals.\nFact 2: In its bench opinion, FederalCircuitAppeals APPLIES_PRECEDENT Basic_v_Levinson.\nFact 3: Landmark ruling Basic_v_Levinson ESTABLISHES_REMEDY PreliminaryRestrainingOrder.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by FederalCircuitAppeals?",
+    "target_2hop": "Basic_v_Levinson",
+    "query_3hop": "Following the judicial precedent chain from FederalCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PreliminaryRestrainingOrder"
+  },
+  {
+    "id": "legal_task_b_002",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before DelawareChanceryCourt.\nFact 2: In its bench opinion, DelawareChanceryCourt APPLIES_PRECEDENT Alice_v_CLSBank.\nFact 3: Landmark ruling Alice_v_CLSBank ESTABLISHES_REMEDY TrebleDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by DelawareChanceryCourt?",
+    "target_2hop": "Alice_v_CLSBank",
+    "query_3hop": "Following the judicial precedent chain from DelawareChanceryCourt, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "TrebleDamages"
+  },
+  {
+    "id": "legal_task_b_003",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SouthernDistrictNewYork.\nFact 2: In its bench opinion, SouthernDistrictNewYork APPLIES_PRECEDENT Basic_v_Levinson.\nFact 3: Landmark ruling Basic_v_Levinson ESTABLISHES_REMEDY DisgorgementOfProfits.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SouthernDistrictNewYork?",
+    "target_2hop": "Basic_v_Levinson",
+    "query_3hop": "Following the judicial precedent chain from SouthernDistrictNewYork, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "DisgorgementOfProfits"
+  },
+  {
+    "id": "legal_task_b_004",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before NorthernDistrictCalifornia.\nFact 2: In its bench opinion, NorthernDistrictCalifornia APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by NorthernDistrictCalifornia?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from NorthernDistrictCalifornia, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_005",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before DelawareChanceryCourt.\nFact 2: In its bench opinion, DelawareChanceryCourt APPLIES_PRECEDENT Twombly_v_BellAtlantic.\nFact 3: Landmark ruling Twombly_v_BellAtlantic ESTABLISHES_REMEDY PreliminaryRestrainingOrder.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by DelawareChanceryCourt?",
+    "target_2hop": "Twombly_v_BellAtlantic",
+    "query_3hop": "Following the judicial precedent chain from DelawareChanceryCourt, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PreliminaryRestrainingOrder"
+  },
+  {
+    "id": "legal_task_b_006",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before NorthernDistrictCalifornia.\nFact 2: In its bench opinion, NorthernDistrictCalifornia APPLIES_PRECEDENT Alice_v_CLSBank.\nFact 3: Landmark ruling Alice_v_CLSBank ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by NorthernDistrictCalifornia?",
+    "target_2hop": "Alice_v_CLSBank",
+    "query_3hop": "Following the judicial precedent chain from NorthernDistrictCalifornia, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_007",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_008",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SouthernDistrictNewYork.\nFact 2: In its bench opinion, SouthernDistrictNewYork APPLIES_PRECEDENT Revlon_v_MacAndrews.\nFact 3: Landmark ruling Revlon_v_MacAndrews ESTABLISHES_REMEDY PreliminaryRestrainingOrder.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SouthernDistrictNewYork?",
+    "target_2hop": "Revlon_v_MacAndrews",
+    "query_3hop": "Following the judicial precedent chain from SouthernDistrictNewYork, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PreliminaryRestrainingOrder"
+  },
+  {
+    "id": "legal_task_b_009",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SecondCircuitAppeals.\nFact 2: In its bench opinion, SecondCircuitAppeals APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SecondCircuitAppeals?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from SecondCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_010",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before FederalCircuitAppeals.\nFact 2: In its bench opinion, FederalCircuitAppeals APPLIES_PRECEDENT Pennzoil_v_Texaco.\nFact 3: Landmark ruling Pennzoil_v_Texaco ESTABLISHES_REMEDY PreliminaryRestrainingOrder.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by FederalCircuitAppeals?",
+    "target_2hop": "Pennzoil_v_Texaco",
+    "query_3hop": "Following the judicial precedent chain from FederalCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PreliminaryRestrainingOrder"
+  },
+  {
+    "id": "legal_task_b_011",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before NorthernDistrictCalifornia.\nFact 2: In its bench opinion, NorthernDistrictCalifornia APPLIES_PRECEDENT Basic_v_Levinson.\nFact 3: Landmark ruling Basic_v_Levinson ESTABLISHES_REMEDY StatutoryLiquidatedDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by NorthernDistrictCalifornia?",
+    "target_2hop": "Basic_v_Levinson",
+    "query_3hop": "Following the judicial precedent chain from NorthernDistrictCalifornia, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "StatutoryLiquidatedDamages"
+  },
+  {
+    "id": "legal_task_b_012",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SecondCircuitAppeals.\nFact 2: In its bench opinion, SecondCircuitAppeals APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY PermanentInjunction.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SecondCircuitAppeals?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from SecondCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PermanentInjunction"
+  },
+  {
+    "id": "legal_task_b_013",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SouthernDistrictNewYork.\nFact 2: In its bench opinion, SouthernDistrictNewYork APPLIES_PRECEDENT Pennzoil_v_Texaco.\nFact 3: Landmark ruling Pennzoil_v_Texaco ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SouthernDistrictNewYork?",
+    "target_2hop": "Pennzoil_v_Texaco",
+    "query_3hop": "Following the judicial precedent chain from SouthernDistrictNewYork, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_014",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SecondCircuitAppeals.\nFact 2: In its bench opinion, SecondCircuitAppeals APPLIES_PRECEDENT Basic_v_Levinson.\nFact 3: Landmark ruling Basic_v_Levinson ESTABLISHES_REMEDY PreliminaryRestrainingOrder.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SecondCircuitAppeals?",
+    "target_2hop": "Basic_v_Levinson",
+    "query_3hop": "Following the judicial precedent chain from SecondCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PreliminaryRestrainingOrder"
+  },
+  {
+    "id": "legal_task_b_015",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before FederalCircuitAppeals.\nFact 2: In its bench opinion, FederalCircuitAppeals APPLIES_PRECEDENT Twombly_v_BellAtlantic.\nFact 3: Landmark ruling Twombly_v_BellAtlantic ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by FederalCircuitAppeals?",
+    "target_2hop": "Twombly_v_BellAtlantic",
+    "query_3hop": "Following the judicial precedent chain from FederalCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_016",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SouthernDistrictNewYork.\nFact 2: In its bench opinion, SouthernDistrictNewYork APPLIES_PRECEDENT Basic_v_Levinson.\nFact 3: Landmark ruling Basic_v_Levinson ESTABLISHES_REMEDY PermanentInjunction.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SouthernDistrictNewYork?",
+    "target_2hop": "Basic_v_Levinson",
+    "query_3hop": "Following the judicial precedent chain from SouthernDistrictNewYork, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PermanentInjunction"
+  },
+  {
+    "id": "legal_task_b_017",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT Basic_v_Levinson.\nFact 3: Landmark ruling Basic_v_Levinson ESTABLISHES_REMEDY PermanentInjunction.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "Basic_v_Levinson",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PermanentInjunction"
+  },
+  {
+    "id": "legal_task_b_018",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SouthernDistrictNewYork.\nFact 2: In its bench opinion, SouthernDistrictNewYork APPLIES_PRECEDENT Revlon_v_MacAndrews.\nFact 3: Landmark ruling Revlon_v_MacAndrews ESTABLISHES_REMEDY TrebleDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SouthernDistrictNewYork?",
+    "target_2hop": "Revlon_v_MacAndrews",
+    "query_3hop": "Following the judicial precedent chain from SouthernDistrictNewYork, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "TrebleDamages"
+  },
+  {
+    "id": "legal_task_b_019",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before NorthernDistrictCalifornia.\nFact 2: In its bench opinion, NorthernDistrictCalifornia APPLIES_PRECEDENT Twombly_v_BellAtlantic.\nFact 3: Landmark ruling Twombly_v_BellAtlantic ESTABLISHES_REMEDY DisgorgementOfProfits.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by NorthernDistrictCalifornia?",
+    "target_2hop": "Twombly_v_BellAtlantic",
+    "query_3hop": "Following the judicial precedent chain from NorthernDistrictCalifornia, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "DisgorgementOfProfits"
+  },
+  {
+    "id": "legal_task_b_020",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY PermanentInjunction.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PermanentInjunction"
+  },
+  {
+    "id": "legal_task_b_021",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY DisgorgementOfProfits.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "DisgorgementOfProfits"
+  },
+  {
+    "id": "legal_task_b_022",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT Twombly_v_BellAtlantic.\nFact 3: Landmark ruling Twombly_v_BellAtlantic ESTABLISHES_REMEDY StatutoryLiquidatedDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "Twombly_v_BellAtlantic",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "StatutoryLiquidatedDamages"
+  },
+  {
+    "id": "legal_task_b_023",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before DelawareChanceryCourt.\nFact 2: In its bench opinion, DelawareChanceryCourt APPLIES_PRECEDENT Revlon_v_MacAndrews.\nFact 3: Landmark ruling Revlon_v_MacAndrews ESTABLISHES_REMEDY DisgorgementOfProfits.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by DelawareChanceryCourt?",
+    "target_2hop": "Revlon_v_MacAndrews",
+    "query_3hop": "Following the judicial precedent chain from DelawareChanceryCourt, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "DisgorgementOfProfits"
+  },
+  {
+    "id": "legal_task_b_024",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT Pennzoil_v_Texaco.\nFact 3: Landmark ruling Pennzoil_v_Texaco ESTABLISHES_REMEDY TrebleDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "Pennzoil_v_Texaco",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "TrebleDamages"
+  },
+  {
+    "id": "legal_task_b_025",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before FederalCircuitAppeals.\nFact 2: In its bench opinion, FederalCircuitAppeals APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY TrebleDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by FederalCircuitAppeals?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from FederalCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "TrebleDamages"
+  },
+  {
+    "id": "legal_task_b_026",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before DelawareChanceryCourt.\nFact 2: In its bench opinion, DelawareChanceryCourt APPLIES_PRECEDENT Pennzoil_v_Texaco.\nFact 3: Landmark ruling Pennzoil_v_Texaco ESTABLISHES_REMEDY TrebleDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by DelawareChanceryCourt?",
+    "target_2hop": "Pennzoil_v_Texaco",
+    "query_3hop": "Following the judicial precedent chain from DelawareChanceryCourt, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "TrebleDamages"
+  },
+  {
+    "id": "legal_task_b_027",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT Alice_v_CLSBank.\nFact 3: Landmark ruling Alice_v_CLSBank ESTABLISHES_REMEDY TrebleDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "Alice_v_CLSBank",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "TrebleDamages"
+  },
+  {
+    "id": "legal_task_b_028",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SouthernDistrictNewYork.\nFact 2: In its bench opinion, SouthernDistrictNewYork APPLIES_PRECEDENT Pennzoil_v_Texaco.\nFact 3: Landmark ruling Pennzoil_v_Texaco ESTABLISHES_REMEDY DisgorgementOfProfits.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SouthernDistrictNewYork?",
+    "target_2hop": "Pennzoil_v_Texaco",
+    "query_3hop": "Following the judicial precedent chain from SouthernDistrictNewYork, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "DisgorgementOfProfits"
+  },
+  {
+    "id": "legal_task_b_029",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before FederalCircuitAppeals.\nFact 2: In its bench opinion, FederalCircuitAppeals APPLIES_PRECEDENT Revlon_v_MacAndrews.\nFact 3: Landmark ruling Revlon_v_MacAndrews ESTABLISHES_REMEDY PermanentInjunction.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by FederalCircuitAppeals?",
+    "target_2hop": "Revlon_v_MacAndrews",
+    "query_3hop": "Following the judicial precedent chain from FederalCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PermanentInjunction"
+  },
+  {
+    "id": "legal_task_b_030",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SouthernDistrictNewYork.\nFact 2: In its bench opinion, SouthernDistrictNewYork APPLIES_PRECEDENT Basic_v_Levinson.\nFact 3: Landmark ruling Basic_v_Levinson ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SouthernDistrictNewYork?",
+    "target_2hop": "Basic_v_Levinson",
+    "query_3hop": "Following the judicial precedent chain from SouthernDistrictNewYork, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_031",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_032",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before NorthernDistrictCalifornia.\nFact 2: In its bench opinion, NorthernDistrictCalifornia APPLIES_PRECEDENT Pennzoil_v_Texaco.\nFact 3: Landmark ruling Pennzoil_v_Texaco ESTABLISHES_REMEDY DisgorgementOfProfits.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by NorthernDistrictCalifornia?",
+    "target_2hop": "Pennzoil_v_Texaco",
+    "query_3hop": "Following the judicial precedent chain from NorthernDistrictCalifornia, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "DisgorgementOfProfits"
+  },
+  {
+    "id": "legal_task_b_033",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY PermanentInjunction.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PermanentInjunction"
+  },
+  {
+    "id": "legal_task_b_034",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before DelawareChanceryCourt.\nFact 2: In its bench opinion, DelawareChanceryCourt APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY StatutoryLiquidatedDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by DelawareChanceryCourt?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from DelawareChanceryCourt, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "StatutoryLiquidatedDamages"
+  },
+  {
+    "id": "legal_task_b_035",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT Alice_v_CLSBank.\nFact 3: Landmark ruling Alice_v_CLSBank ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "Alice_v_CLSBank",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_036",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before DelawareChanceryCourt.\nFact 2: In its bench opinion, DelawareChanceryCourt APPLIES_PRECEDENT Revlon_v_MacAndrews.\nFact 3: Landmark ruling Revlon_v_MacAndrews ESTABLISHES_REMEDY TrebleDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by DelawareChanceryCourt?",
+    "target_2hop": "Revlon_v_MacAndrews",
+    "query_3hop": "Following the judicial precedent chain from DelawareChanceryCourt, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "TrebleDamages"
+  },
+  {
+    "id": "legal_task_b_037",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT Pennzoil_v_Texaco.\nFact 3: Landmark ruling Pennzoil_v_Texaco ESTABLISHES_REMEDY TrebleDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "Pennzoil_v_Texaco",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "TrebleDamages"
+  },
+  {
+    "id": "legal_task_b_038",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT Alice_v_CLSBank.\nFact 3: Landmark ruling Alice_v_CLSBank ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "Alice_v_CLSBank",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_039",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SecondCircuitAppeals.\nFact 2: In its bench opinion, SecondCircuitAppeals APPLIES_PRECEDENT Pennzoil_v_Texaco.\nFact 3: Landmark ruling Pennzoil_v_Texaco ESTABLISHES_REMEDY StatutoryLiquidatedDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SecondCircuitAppeals?",
+    "target_2hop": "Pennzoil_v_Texaco",
+    "query_3hop": "Following the judicial precedent chain from SecondCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "StatutoryLiquidatedDamages"
+  },
+  {
+    "id": "legal_task_b_040",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SecondCircuitAppeals.\nFact 2: In its bench opinion, SecondCircuitAppeals APPLIES_PRECEDENT Revlon_v_MacAndrews.\nFact 3: Landmark ruling Revlon_v_MacAndrews ESTABLISHES_REMEDY StatutoryLiquidatedDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SecondCircuitAppeals?",
+    "target_2hop": "Revlon_v_MacAndrews",
+    "query_3hop": "Following the judicial precedent chain from SecondCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "StatutoryLiquidatedDamages"
+  },
+  {
+    "id": "legal_task_b_041",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before NorthernDistrictCalifornia.\nFact 2: In its bench opinion, NorthernDistrictCalifornia APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY PermanentInjunction.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by NorthernDistrictCalifornia?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from NorthernDistrictCalifornia, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PermanentInjunction"
+  },
+  {
+    "id": "legal_task_b_042",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SecondCircuitAppeals.\nFact 2: In its bench opinion, SecondCircuitAppeals APPLIES_PRECEDENT Twombly_v_BellAtlantic.\nFact 3: Landmark ruling Twombly_v_BellAtlantic ESTABLISHES_REMEDY StatutoryLiquidatedDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SecondCircuitAppeals?",
+    "target_2hop": "Twombly_v_BellAtlantic",
+    "query_3hop": "Following the judicial precedent chain from SecondCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "StatutoryLiquidatedDamages"
+  },
+  {
+    "id": "legal_task_b_043",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before FederalCircuitAppeals.\nFact 2: In its bench opinion, FederalCircuitAppeals APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY PermanentInjunction.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by FederalCircuitAppeals?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from FederalCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PermanentInjunction"
+  },
+  {
+    "id": "legal_task_b_044",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before DelawareChanceryCourt.\nFact 2: In its bench opinion, DelawareChanceryCourt APPLIES_PRECEDENT Revlon_v_MacAndrews.\nFact 3: Landmark ruling Revlon_v_MacAndrews ESTABLISHES_REMEDY DisgorgementOfProfits.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by DelawareChanceryCourt?",
+    "target_2hop": "Revlon_v_MacAndrews",
+    "query_3hop": "Following the judicial precedent chain from DelawareChanceryCourt, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "DisgorgementOfProfits"
+  },
+  {
+    "id": "legal_task_b_045",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before NorthernDistrictCalifornia.\nFact 2: In its bench opinion, NorthernDistrictCalifornia APPLIES_PRECEDENT Twombly_v_BellAtlantic.\nFact 3: Landmark ruling Twombly_v_BellAtlantic ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by NorthernDistrictCalifornia?",
+    "target_2hop": "Twombly_v_BellAtlantic",
+    "query_3hop": "Following the judicial precedent chain from NorthernDistrictCalifornia, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_046",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before SupremeCourtDelaware.\nFact 2: In its bench opinion, SupremeCourtDelaware APPLIES_PRECEDENT Pennzoil_v_Texaco.\nFact 3: Landmark ruling Pennzoil_v_Texaco ESTABLISHES_REMEDY PermanentInjunction.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by SupremeCourtDelaware?",
+    "target_2hop": "Pennzoil_v_Texaco",
+    "query_3hop": "Following the judicial precedent chain from SupremeCourtDelaware, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "PermanentInjunction"
+  },
+  {
+    "id": "legal_task_b_047",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before FederalCircuitAppeals.\nFact 2: In its bench opinion, FederalCircuitAppeals APPLIES_PRECEDENT Alice_v_CLSBank.\nFact 3: Landmark ruling Alice_v_CLSBank ESTABLISHES_REMEDY TrebleDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by FederalCircuitAppeals?",
+    "target_2hop": "Alice_v_CLSBank",
+    "query_3hop": "Following the judicial precedent chain from FederalCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "TrebleDamages"
+  },
+  {
+    "id": "legal_task_b_048",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before FederalCircuitAppeals.\nFact 2: In its bench opinion, FederalCircuitAppeals APPLIES_PRECEDENT Basic_v_Levinson.\nFact 3: Landmark ruling Basic_v_Levinson ESTABLISHES_REMEDY RescissionOfAgreement.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by FederalCircuitAppeals?",
+    "target_2hop": "Basic_v_Levinson",
+    "query_3hop": "Following the judicial precedent chain from FederalCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "RescissionOfAgreement"
+  },
+  {
+    "id": "legal_task_b_049",
+    "task_type": "legal_multi_hop_deduction",
+    "subgraph_context": "Fact 1: The lawsuit was heard before FederalCircuitAppeals.\nFact 2: In its bench opinion, FederalCircuitAppeals APPLIES_PRECEDENT eBay_v_MercExchange.\nFact 3: Landmark ruling eBay_v_MercExchange ESTABLISHES_REMEDY TrebleDamages.",
+    "query_2hop": "Based on jurisdictional precedent, which PrecedentCase was applied by FederalCircuitAppeals?",
+    "target_2hop": "eBay_v_MercExchange",
+    "query_3hop": "Following the judicial precedent chain from FederalCircuitAppeals, which LegalRemedy is established under this doctrine?",
+    "target_3hop": "TrebleDamages"
+  }
+]

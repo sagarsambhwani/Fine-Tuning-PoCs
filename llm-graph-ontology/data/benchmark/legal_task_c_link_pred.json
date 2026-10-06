@@ -1,0 +1,402 @@
+[
+  {
+    "id": "legal_task_c_000",
+    "task_type": "legal_link_prediction",
+    "head": "NovaPharmaCorp",
+    "tail": "PermanentInjunction",
+    "prompt": "Given legal entity Head 'NovaPharmaCorp' and Tail 'PermanentInjunction', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "LIABLE_FOR"
+  },
+  {
+    "id": "legal_task_c_001",
+    "task_type": "legal_link_prediction",
+    "head": "TradeSecretMisappropriation",
+    "tail": "FederalCircuitAppeals",
+    "prompt": "Given legal entity Head 'TradeSecretMisappropriation' and Tail 'FederalCircuitAppeals', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_002",
+    "task_type": "legal_link_prediction",
+    "head": "OmniRetailCorp",
+    "tail": "TitanEnergyLLC",
+    "prompt": "Given legal entity Head 'OmniRetailCorp' and Tail 'TitanEnergyLLC', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "FILES_CLAIM_AGAINST"
+  },
+  {
+    "id": "legal_task_c_003",
+    "task_type": "legal_link_prediction",
+    "head": "BreachOfContract",
+    "tail": "SouthernDistrictNewYork",
+    "prompt": "Given legal entity Head 'BreachOfContract' and Tail 'SouthernDistrictNewYork', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_004",
+    "task_type": "legal_link_prediction",
+    "head": "eBay_v_MercExchange",
+    "tail": "RescissionOfAgreement",
+    "prompt": "Given legal entity Head 'eBay_v_MercExchange' and Tail 'RescissionOfAgreement', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ESTABLISHES_REMEDY"
+  },
+  {
+    "id": "legal_task_c_005",
+    "task_type": "legal_link_prediction",
+    "head": "DelawareChanceryCourt",
+    "tail": "Twombly_v_BellAtlantic",
+    "prompt": "Given legal entity Head 'DelawareChanceryCourt' and Tail 'Twombly_v_BellAtlantic', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  },
+  {
+    "id": "legal_task_c_006",
+    "task_type": "legal_link_prediction",
+    "head": "VanguardLogistics",
+    "tail": "GlobalSupplyChainLtd",
+    "prompt": "Given legal entity Head 'VanguardLogistics' and Tail 'GlobalSupplyChainLtd', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "FILES_CLAIM_AGAINST"
+  },
+  {
+    "id": "legal_task_c_007",
+    "task_type": "legal_link_prediction",
+    "head": "FiduciaryDutyBreach",
+    "tail": "SupremeCourtDelaware",
+    "prompt": "Given legal entity Head 'FiduciaryDutyBreach' and Tail 'SupremeCourtDelaware', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_008",
+    "task_type": "legal_link_prediction",
+    "head": "SouthernDistrictNewYork",
+    "tail": "Revlon_v_MacAndrews",
+    "prompt": "Given legal entity Head 'SouthernDistrictNewYork' and Tail 'Revlon_v_MacAndrews', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  },
+  {
+    "id": "legal_task_c_009",
+    "task_type": "legal_link_prediction",
+    "head": "BreachOfContract",
+    "tail": "SecondCircuitAppeals",
+    "prompt": "Given legal entity Head 'BreachOfContract' and Tail 'SecondCircuitAppeals', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_010",
+    "task_type": "legal_link_prediction",
+    "head": "FederalCircuitAppeals",
+    "tail": "Pennzoil_v_Texaco",
+    "prompt": "Given legal entity Head 'FederalCircuitAppeals' and Tail 'Pennzoil_v_Texaco', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  },
+  {
+    "id": "legal_task_c_011",
+    "task_type": "legal_link_prediction",
+    "head": "NorthernDistrictCalifornia",
+    "tail": "Basic_v_Levinson",
+    "prompt": "Given legal entity Head 'NorthernDistrictCalifornia' and Tail 'Basic_v_Levinson', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  },
+  {
+    "id": "legal_task_c_012",
+    "task_type": "legal_link_prediction",
+    "head": "BioGenixLabs",
+    "tail": "NexusRoboticsCorp",
+    "prompt": "Given legal entity Head 'BioGenixLabs' and Tail 'NexusRoboticsCorp', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "FILES_CLAIM_AGAINST"
+  },
+  {
+    "id": "legal_task_c_013",
+    "task_type": "legal_link_prediction",
+    "head": "ApexHoldings",
+    "tail": "AegisCyberSec",
+    "prompt": "Given legal entity Head 'ApexHoldings' and Tail 'AegisCyberSec', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "FILES_CLAIM_AGAINST"
+  },
+  {
+    "id": "legal_task_c_014",
+    "task_type": "legal_link_prediction",
+    "head": "SecuritiesFraud",
+    "tail": "SecondCircuitAppeals",
+    "prompt": "Given legal entity Head 'SecuritiesFraud' and Tail 'SecondCircuitAppeals', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_015",
+    "task_type": "legal_link_prediction",
+    "head": "TortiousInterference",
+    "tail": "FederalCircuitAppeals",
+    "prompt": "Given legal entity Head 'TortiousInterference' and Tail 'FederalCircuitAppeals', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_016",
+    "task_type": "legal_link_prediction",
+    "head": "ApexHoldings",
+    "tail": "NovaPharmaCorp",
+    "prompt": "Given legal entity Head 'ApexHoldings' and Tail 'NovaPharmaCorp', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "FILES_CLAIM_AGAINST"
+  },
+  {
+    "id": "legal_task_c_017",
+    "task_type": "legal_link_prediction",
+    "head": "TradeSecretMisappropriation",
+    "tail": "SupremeCourtDelaware",
+    "prompt": "Given legal entity Head 'TradeSecretMisappropriation' and Tail 'SupremeCourtDelaware', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_018",
+    "task_type": "legal_link_prediction",
+    "head": "SouthernDistrictNewYork",
+    "tail": "Revlon_v_MacAndrews",
+    "prompt": "Given legal entity Head 'SouthernDistrictNewYork' and Tail 'Revlon_v_MacAndrews', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  },
+  {
+    "id": "legal_task_c_019",
+    "task_type": "legal_link_prediction",
+    "head": "PatentInfringement",
+    "tail": "NorthernDistrictCalifornia",
+    "prompt": "Given legal entity Head 'PatentInfringement' and Tail 'NorthernDistrictCalifornia', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_020",
+    "task_type": "legal_link_prediction",
+    "head": "eBay_v_MercExchange",
+    "tail": "PermanentInjunction",
+    "prompt": "Given legal entity Head 'eBay_v_MercExchange' and Tail 'PermanentInjunction', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ESTABLISHES_REMEDY"
+  },
+  {
+    "id": "legal_task_c_021",
+    "task_type": "legal_link_prediction",
+    "head": "SecuritiesFraud",
+    "tail": "SupremeCourtDelaware",
+    "prompt": "Given legal entity Head 'SecuritiesFraud' and Tail 'SupremeCourtDelaware', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_022",
+    "task_type": "legal_link_prediction",
+    "head": "TitanEnergyLLC",
+    "tail": "StatutoryLiquidatedDamages",
+    "prompt": "Given legal entity Head 'TitanEnergyLLC' and Tail 'StatutoryLiquidatedDamages', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "LIABLE_FOR"
+  },
+  {
+    "id": "legal_task_c_023",
+    "task_type": "legal_link_prediction",
+    "head": "DelawareChanceryCourt",
+    "tail": "Revlon_v_MacAndrews",
+    "prompt": "Given legal entity Head 'DelawareChanceryCourt' and Tail 'Revlon_v_MacAndrews', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  },
+  {
+    "id": "legal_task_c_024",
+    "task_type": "legal_link_prediction",
+    "head": "TitanEnergyLLC",
+    "tail": "TrebleDamages",
+    "prompt": "Given legal entity Head 'TitanEnergyLLC' and Tail 'TrebleDamages', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "LIABLE_FOR"
+  },
+  {
+    "id": "legal_task_c_025",
+    "task_type": "legal_link_prediction",
+    "head": "FederalCircuitAppeals",
+    "tail": "eBay_v_MercExchange",
+    "prompt": "Given legal entity Head 'FederalCircuitAppeals' and Tail 'eBay_v_MercExchange', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  },
+  {
+    "id": "legal_task_c_026",
+    "task_type": "legal_link_prediction",
+    "head": "DelawareChanceryCourt",
+    "tail": "Pennzoil_v_Texaco",
+    "prompt": "Given legal entity Head 'DelawareChanceryCourt' and Tail 'Pennzoil_v_Texaco', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  },
+  {
+    "id": "legal_task_c_027",
+    "task_type": "legal_link_prediction",
+    "head": "Alice_v_CLSBank",
+    "tail": "TrebleDamages",
+    "prompt": "Given legal entity Head 'Alice_v_CLSBank' and Tail 'TrebleDamages', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ESTABLISHES_REMEDY"
+  },
+  {
+    "id": "legal_task_c_028",
+    "task_type": "legal_link_prediction",
+    "head": "SouthernDistrictNewYork",
+    "tail": "Pennzoil_v_Texaco",
+    "prompt": "Given legal entity Head 'SouthernDistrictNewYork' and Tail 'Pennzoil_v_Texaco', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  },
+  {
+    "id": "legal_task_c_029",
+    "task_type": "legal_link_prediction",
+    "head": "FiduciaryDutyBreach",
+    "tail": "FederalCircuitAppeals",
+    "prompt": "Given legal entity Head 'FiduciaryDutyBreach' and Tail 'FederalCircuitAppeals', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_030",
+    "task_type": "legal_link_prediction",
+    "head": "ApexHoldings",
+    "tail": "AegisCyberSec",
+    "prompt": "Given legal entity Head 'ApexHoldings' and Tail 'AegisCyberSec', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "FILES_CLAIM_AGAINST"
+  },
+  {
+    "id": "legal_task_c_031",
+    "task_type": "legal_link_prediction",
+    "head": "AegisCyberSec",
+    "tail": "RescissionOfAgreement",
+    "prompt": "Given legal entity Head 'AegisCyberSec' and Tail 'RescissionOfAgreement', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "LIABLE_FOR"
+  },
+  {
+    "id": "legal_task_c_032",
+    "task_type": "legal_link_prediction",
+    "head": "DeltaSystemsInc",
+    "tail": "DisgorgementOfProfits",
+    "prompt": "Given legal entity Head 'DeltaSystemsInc' and Tail 'DisgorgementOfProfits', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "LIABLE_FOR"
+  },
+  {
+    "id": "legal_task_c_033",
+    "task_type": "legal_link_prediction",
+    "head": "SupremeCourtDelaware",
+    "tail": "eBay_v_MercExchange",
+    "prompt": "Given legal entity Head 'SupremeCourtDelaware' and Tail 'eBay_v_MercExchange', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  },
+  {
+    "id": "legal_task_c_034",
+    "task_type": "legal_link_prediction",
+    "head": "eBay_v_MercExchange",
+    "tail": "StatutoryLiquidatedDamages",
+    "prompt": "Given legal entity Head 'eBay_v_MercExchange' and Tail 'StatutoryLiquidatedDamages', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ESTABLISHES_REMEDY"
+  },
+  {
+    "id": "legal_task_c_035",
+    "task_type": "legal_link_prediction",
+    "head": "Alice_v_CLSBank",
+    "tail": "RescissionOfAgreement",
+    "prompt": "Given legal entity Head 'Alice_v_CLSBank' and Tail 'RescissionOfAgreement', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ESTABLISHES_REMEDY"
+  },
+  {
+    "id": "legal_task_c_036",
+    "task_type": "legal_link_prediction",
+    "head": "GlobalSupplyChainLtd",
+    "tail": "TrebleDamages",
+    "prompt": "Given legal entity Head 'GlobalSupplyChainLtd' and Tail 'TrebleDamages', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "LIABLE_FOR"
+  },
+  {
+    "id": "legal_task_c_037",
+    "task_type": "legal_link_prediction",
+    "head": "BreachOfContract",
+    "tail": "SupremeCourtDelaware",
+    "prompt": "Given legal entity Head 'BreachOfContract' and Tail 'SupremeCourtDelaware', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_038",
+    "task_type": "legal_link_prediction",
+    "head": "TortiousInterference",
+    "tail": "SupremeCourtDelaware",
+    "prompt": "Given legal entity Head 'TortiousInterference' and Tail 'SupremeCourtDelaware', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_039",
+    "task_type": "legal_link_prediction",
+    "head": "TortiousInterference",
+    "tail": "SecondCircuitAppeals",
+    "prompt": "Given legal entity Head 'TortiousInterference' and Tail 'SecondCircuitAppeals', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_040",
+    "task_type": "legal_link_prediction",
+    "head": "PatentInfringement",
+    "tail": "SecondCircuitAppeals",
+    "prompt": "Given legal entity Head 'PatentInfringement' and Tail 'SecondCircuitAppeals', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_041",
+    "task_type": "legal_link_prediction",
+    "head": "HorizonMediaGroup",
+    "tail": "NexusRoboticsCorp",
+    "prompt": "Given legal entity Head 'HorizonMediaGroup' and Tail 'NexusRoboticsCorp', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "FILES_CLAIM_AGAINST"
+  },
+  {
+    "id": "legal_task_c_042",
+    "task_type": "legal_link_prediction",
+    "head": "QuantumTechLLC",
+    "tail": "AegisCyberSec",
+    "prompt": "Given legal entity Head 'QuantumTechLLC' and Tail 'AegisCyberSec', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "FILES_CLAIM_AGAINST"
+  },
+  {
+    "id": "legal_task_c_043",
+    "task_type": "legal_link_prediction",
+    "head": "FederalCircuitAppeals",
+    "tail": "eBay_v_MercExchange",
+    "prompt": "Given legal entity Head 'FederalCircuitAppeals' and Tail 'eBay_v_MercExchange', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  },
+  {
+    "id": "legal_task_c_044",
+    "task_type": "legal_link_prediction",
+    "head": "PatentInfringement",
+    "tail": "DelawareChanceryCourt",
+    "prompt": "Given legal entity Head 'PatentInfringement' and Tail 'DelawareChanceryCourt', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_045",
+    "task_type": "legal_link_prediction",
+    "head": "TortiousInterference",
+    "tail": "NorthernDistrictCalifornia",
+    "prompt": "Given legal entity Head 'TortiousInterference' and Tail 'NorthernDistrictCalifornia', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_046",
+    "task_type": "legal_link_prediction",
+    "head": "TradeSecretMisappropriation",
+    "tail": "SupremeCourtDelaware",
+    "prompt": "Given legal entity Head 'TradeSecretMisappropriation' and Tail 'SupremeCourtDelaware', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_047",
+    "task_type": "legal_link_prediction",
+    "head": "Alice_v_CLSBank",
+    "tail": "TrebleDamages",
+    "prompt": "Given legal entity Head 'Alice_v_CLSBank' and Tail 'TrebleDamages', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ESTABLISHES_REMEDY"
+  },
+  {
+    "id": "legal_task_c_048",
+    "task_type": "legal_link_prediction",
+    "head": "FiduciaryDutyBreach",
+    "tail": "FederalCircuitAppeals",
+    "prompt": "Given legal entity Head 'FiduciaryDutyBreach' and Tail 'FederalCircuitAppeals', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "ADJUDICATED_BY"
+  },
+  {
+    "id": "legal_task_c_049",
+    "task_type": "legal_link_prediction",
+    "head": "FederalCircuitAppeals",
+    "tail": "eBay_v_MercExchange",
+    "prompt": "Given legal entity Head 'FederalCircuitAppeals' and Tail 'eBay_v_MercExchange', identify the valid ontological relation from: [FILES_CLAIM_AGAINST, ADJUDICATED_BY, APPLIES_PRECEDENT, ESTABLISHES_REMEDY, LIABLE_FOR].",
+    "target_relation": "APPLIES_PRECEDENT"
+  }
+]
