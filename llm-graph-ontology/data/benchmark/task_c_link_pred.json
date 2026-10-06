@@ -1,0 +1,402 @@
+[
+  {
+    "id": "task_c_000",
+    "task_type": "link_prediction",
+    "head": "Lisinopril",
+    "tail": "ImmuneColitis",
+    "prompt": "Given entity Head 'Lisinopril' and Tail 'ImmuneColitis', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "CAUSES_SIDE_EFFECT"
+  },
+  {
+    "id": "task_c_001",
+    "task_type": "link_prediction",
+    "head": "Lisinopril",
+    "tail": "Hypertension",
+    "prompt": "Given entity Head 'Lisinopril' and Tail 'Hypertension', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_002",
+    "task_type": "link_prediction",
+    "head": "Pembrolizumab",
+    "tail": "Hyperkalemia",
+    "prompt": "Given entity Head 'Pembrolizumab' and Tail 'Hyperkalemia', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "CAUSES_SIDE_EFFECT"
+  },
+  {
+    "id": "task_c_003",
+    "task_type": "link_prediction",
+    "head": "Aspirin",
+    "tail": "AMPK_Enzyme",
+    "prompt": "Given entity Head 'Aspirin' and Tail 'AMPK_Enzyme', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TARGETS"
+  },
+  {
+    "id": "task_c_004",
+    "task_type": "link_prediction",
+    "head": "Imatinib",
+    "tail": "Hypercholesterolemia",
+    "prompt": "Given entity Head 'Imatinib' and Tail 'Hypercholesterolemia', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_005",
+    "task_type": "link_prediction",
+    "head": "Losartan",
+    "tail": "Hypertension",
+    "prompt": "Given entity Head 'Losartan' and Tail 'Hypertension', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_006",
+    "task_type": "link_prediction",
+    "head": "ACE",
+    "tail": "Hypertension",
+    "prompt": "Given entity Head 'ACE' and Tail 'Hypertension', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_007",
+    "task_type": "link_prediction",
+    "head": "Omeprazole",
+    "tail": "ACE_Receptor",
+    "prompt": "Given entity Head 'Omeprazole' and Tail 'ACE_Receptor', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TARGETS"
+  },
+  {
+    "id": "task_c_008",
+    "task_type": "link_prediction",
+    "head": "ACE_Receptor",
+    "tail": "AGTR1",
+    "prompt": "Given entity Head 'ACE_Receptor' and Tail 'AGTR1', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ENCODED_BY"
+  },
+  {
+    "id": "task_c_009",
+    "task_type": "link_prediction",
+    "head": "Omeprazole",
+    "tail": "ProtonPump_K_ATPase",
+    "prompt": "Given entity Head 'Omeprazole' and Tail 'ProtonPump_K_ATPase', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TARGETS"
+  },
+  {
+    "id": "task_c_010",
+    "task_type": "link_prediction",
+    "head": "PD1_Protein",
+    "tail": "HMGCR",
+    "prompt": "Given entity Head 'PD1_Protein' and Tail 'HMGCR', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ENCODED_BY"
+  },
+  {
+    "id": "task_c_011",
+    "task_type": "link_prediction",
+    "head": "Imatinib",
+    "tail": "Melanoma",
+    "prompt": "Given entity Head 'Imatinib' and Tail 'Melanoma', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_012",
+    "task_type": "link_prediction",
+    "head": "ACE",
+    "tail": "MyocardialInfarction",
+    "prompt": "Given entity Head 'ACE' and Tail 'MyocardialInfarction', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_013",
+    "task_type": "link_prediction",
+    "head": "Omeprazole",
+    "tail": "GastricUlcer",
+    "prompt": "Given entity Head 'Omeprazole' and Tail 'GastricUlcer', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "CAUSES_SIDE_EFFECT"
+  },
+  {
+    "id": "task_c_014",
+    "task_type": "link_prediction",
+    "head": "BCR_ABL1",
+    "tail": "Hypercholesterolemia",
+    "prompt": "Given entity Head 'BCR_ABL1' and Tail 'Hypercholesterolemia', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_015",
+    "task_type": "link_prediction",
+    "head": "Losartan",
+    "tail": "GastroesophagealReflux",
+    "prompt": "Given entity Head 'Losartan' and Tail 'GastroesophagealReflux', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_016",
+    "task_type": "link_prediction",
+    "head": "HMGCR",
+    "tail": "Hypertension",
+    "prompt": "Given entity Head 'HMGCR' and Tail 'Hypertension', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_017",
+    "task_type": "link_prediction",
+    "head": "PTGS1",
+    "tail": "MyocardialInfarction",
+    "prompt": "Given entity Head 'PTGS1' and Tail 'MyocardialInfarction', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_018",
+    "task_type": "link_prediction",
+    "head": "Metformin",
+    "tail": "BCR_ABL_Kinase",
+    "prompt": "Given entity Head 'Metformin' and Tail 'BCR_ABL_Kinase', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TARGETS"
+  },
+  {
+    "id": "task_c_019",
+    "task_type": "link_prediction",
+    "head": "PRKAA1",
+    "tail": "Hypercholesterolemia",
+    "prompt": "Given entity Head 'PRKAA1' and Tail 'Hypercholesterolemia', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_020",
+    "task_type": "link_prediction",
+    "head": "Atorvastatin",
+    "tail": "BCR_ABL_Kinase",
+    "prompt": "Given entity Head 'Atorvastatin' and Tail 'BCR_ABL_Kinase', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TARGETS"
+  },
+  {
+    "id": "task_c_021",
+    "task_type": "link_prediction",
+    "head": "Atorvastatin",
+    "tail": "Type2Diabetes",
+    "prompt": "Given entity Head 'Atorvastatin' and Tail 'Type2Diabetes', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_022",
+    "task_type": "link_prediction",
+    "head": "PRKAA1",
+    "tail": "ChronicMyeloidLeukemia",
+    "prompt": "Given entity Head 'PRKAA1' and Tail 'ChronicMyeloidLeukemia', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_023",
+    "task_type": "link_prediction",
+    "head": "Lisinopril",
+    "tail": "Myopathy",
+    "prompt": "Given entity Head 'Lisinopril' and Tail 'Myopathy', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "CAUSES_SIDE_EFFECT"
+  },
+  {
+    "id": "task_c_024",
+    "task_type": "link_prediction",
+    "head": "AGTR1",
+    "tail": "Hypercholesterolemia",
+    "prompt": "Given entity Head 'AGTR1' and Tail 'Hypercholesterolemia', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_025",
+    "task_type": "link_prediction",
+    "head": "ATP4A",
+    "tail": "ChronicMyeloidLeukemia",
+    "prompt": "Given entity Head 'ATP4A' and Tail 'ChronicMyeloidLeukemia', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_026",
+    "task_type": "link_prediction",
+    "head": "Aspirin",
+    "tail": "PD1_Protein",
+    "prompt": "Given entity Head 'Aspirin' and Tail 'PD1_Protein', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TARGETS"
+  },
+  {
+    "id": "task_c_027",
+    "task_type": "link_prediction",
+    "head": "Metformin",
+    "tail": "Melanoma",
+    "prompt": "Given entity Head 'Metformin' and Tail 'Melanoma', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_028",
+    "task_type": "link_prediction",
+    "head": "ATP4A",
+    "tail": "Hypertension",
+    "prompt": "Given entity Head 'ATP4A' and Tail 'Hypertension', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_029",
+    "task_type": "link_prediction",
+    "head": "PDCD1",
+    "tail": "ChronicMyeloidLeukemia",
+    "prompt": "Given entity Head 'PDCD1' and Tail 'ChronicMyeloidLeukemia', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_030",
+    "task_type": "link_prediction",
+    "head": "Aspirin",
+    "tail": "Melanoma",
+    "prompt": "Given entity Head 'Aspirin' and Tail 'Melanoma', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_031",
+    "task_type": "link_prediction",
+    "head": "ProtonPump_K_ATPase",
+    "tail": "AGTR1",
+    "prompt": "Given entity Head 'ProtonPump_K_ATPase' and Tail 'AGTR1', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ENCODED_BY"
+  },
+  {
+    "id": "task_c_032",
+    "task_type": "link_prediction",
+    "head": "Metformin",
+    "tail": "Hypertension",
+    "prompt": "Given entity Head 'Metformin' and Tail 'Hypertension', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_033",
+    "task_type": "link_prediction",
+    "head": "PD1_Protein",
+    "tail": "PTGS1",
+    "prompt": "Given entity Head 'PD1_Protein' and Tail 'PTGS1', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ENCODED_BY"
+  },
+  {
+    "id": "task_c_034",
+    "task_type": "link_prediction",
+    "head": "COX1_Enzyme",
+    "tail": "PDCD1",
+    "prompt": "Given entity Head 'COX1_Enzyme' and Tail 'PDCD1', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ENCODED_BY"
+  },
+  {
+    "id": "task_c_035",
+    "task_type": "link_prediction",
+    "head": "Lisinopril",
+    "tail": "ImmuneColitis",
+    "prompt": "Given entity Head 'Lisinopril' and Tail 'ImmuneColitis', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "CAUSES_SIDE_EFFECT"
+  },
+  {
+    "id": "task_c_036",
+    "task_type": "link_prediction",
+    "head": "Losartan",
+    "tail": "Atherosclerosis",
+    "prompt": "Given entity Head 'Losartan' and Tail 'Atherosclerosis', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_037",
+    "task_type": "link_prediction",
+    "head": "AMPK_Enzyme",
+    "tail": "AGTR1",
+    "prompt": "Given entity Head 'AMPK_Enzyme' and Tail 'AGTR1', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ENCODED_BY"
+  },
+  {
+    "id": "task_c_038",
+    "task_type": "link_prediction",
+    "head": "Imatinib",
+    "tail": "COX1_Enzyme",
+    "prompt": "Given entity Head 'Imatinib' and Tail 'COX1_Enzyme', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TARGETS"
+  },
+  {
+    "id": "task_c_039",
+    "task_type": "link_prediction",
+    "head": "Pembrolizumab",
+    "tail": "Type2Diabetes",
+    "prompt": "Given entity Head 'Pembrolizumab' and Tail 'Type2Diabetes', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_040",
+    "task_type": "link_prediction",
+    "head": "Aspirin",
+    "tail": "Hypercholesterolemia",
+    "prompt": "Given entity Head 'Aspirin' and Tail 'Hypercholesterolemia', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TREATS"
+  },
+  {
+    "id": "task_c_041",
+    "task_type": "link_prediction",
+    "head": "ACE",
+    "tail": "Melanoma",
+    "prompt": "Given entity Head 'ACE' and Tail 'Melanoma', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_042",
+    "task_type": "link_prediction",
+    "head": "Metformin",
+    "tail": "FluidRetention",
+    "prompt": "Given entity Head 'Metformin' and Tail 'FluidRetention', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "CAUSES_SIDE_EFFECT"
+  },
+  {
+    "id": "task_c_043",
+    "task_type": "link_prediction",
+    "head": "Omeprazole",
+    "tail": "BCR_ABL_Kinase",
+    "prompt": "Given entity Head 'Omeprazole' and Tail 'BCR_ABL_Kinase', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TARGETS"
+  },
+  {
+    "id": "task_c_044",
+    "task_type": "link_prediction",
+    "head": "PRKAA1",
+    "tail": "GastroesophagealReflux",
+    "prompt": "Given entity Head 'PRKAA1' and Tail 'GastroesophagealReflux', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_045",
+    "task_type": "link_prediction",
+    "head": "Lisinopril",
+    "tail": "PD1_Protein",
+    "prompt": "Given entity Head 'Lisinopril' and Tail 'PD1_Protein', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TARGETS"
+  },
+  {
+    "id": "task_c_046",
+    "task_type": "link_prediction",
+    "head": "ProtonPump_K_ATPase",
+    "tail": "BCR_ABL1",
+    "prompt": "Given entity Head 'ProtonPump_K_ATPase' and Tail 'BCR_ABL1', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ENCODED_BY"
+  },
+  {
+    "id": "task_c_047",
+    "task_type": "link_prediction",
+    "head": "Imatinib",
+    "tail": "BCR_ABL_Kinase",
+    "prompt": "Given entity Head 'Imatinib' and Tail 'BCR_ABL_Kinase', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TARGETS"
+  },
+  {
+    "id": "task_c_048",
+    "task_type": "link_prediction",
+    "head": "BCR_ABL1",
+    "tail": "Hypertension",
+    "prompt": "Given entity Head 'BCR_ABL1' and Tail 'Hypertension', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "ASSOCIATED_WITH"
+  },
+  {
+    "id": "task_c_049",
+    "task_type": "link_prediction",
+    "head": "Pembrolizumab",
+    "tail": "PD1_Protein",
+    "prompt": "Given entity Head 'Pembrolizumab' and Tail 'PD1_Protein', identify the valid ontological relation from: [TREATS, CAUSES_SIDE_EFFECT, TARGETS, ENCODED_BY, ASSOCIATED_WITH].",
+    "target_relation": "TARGETS"
+  }
+]

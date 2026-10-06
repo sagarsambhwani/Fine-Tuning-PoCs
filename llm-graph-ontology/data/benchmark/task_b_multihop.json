@@ -1,0 +1,452 @@
+[
+  {
+    "id": "task_b_000",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS BCR_ABL_Kinase.\nFact 2: BCR_ABL_Kinase is ENCODED_BY gene PDCD1.\nFact 3: Gene PDCD1 is ASSOCIATED_WITH Type2Diabetes.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "PDCD1",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Type2Diabetes"
+  },
+  {
+    "id": "task_b_001",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS AT1_Receptor.\nFact 2: AT1_Receptor is ENCODED_BY gene PRKAA1.\nFact 3: Gene PRKAA1 is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "PRKAA1",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_002",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Pembrolizumab TARGETS AMPK_Enzyme.\nFact 2: AMPK_Enzyme is ENCODED_BY gene PDCD1.\nFact 3: Gene PDCD1 is ASSOCIATED_WITH Melanoma.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Pembrolizumab targets its primary protein?",
+    "target_2hop": "PDCD1",
+    "query_3hop": "Following the 3-hop biological chain from Pembrolizumab, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Melanoma"
+  },
+  {
+    "id": "task_b_003",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Aspirin TARGETS AMPK_Enzyme.\nFact 2: AMPK_Enzyme is ENCODED_BY gene HMGCR.\nFact 3: Gene HMGCR is ASSOCIATED_WITH ChronicMyeloidLeukemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Aspirin targets its primary protein?",
+    "target_2hop": "HMGCR",
+    "query_3hop": "Following the 3-hop biological chain from Aspirin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "ChronicMyeloidLeukemia"
+  },
+  {
+    "id": "task_b_004",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Imatinib TARGETS PD1_Protein.\nFact 2: PD1_Protein is ENCODED_BY gene ATP4A.\nFact 3: Gene ATP4A is ASSOCIATED_WITH Hypercholesterolemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Imatinib targets its primary protein?",
+    "target_2hop": "ATP4A",
+    "query_3hop": "Following the 3-hop biological chain from Imatinib, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypercholesterolemia"
+  },
+  {
+    "id": "task_b_005",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Losartan TARGETS ProtonPump_K_ATPase.\nFact 2: ProtonPump_K_ATPase is ENCODED_BY gene ATP4A.\nFact 3: Gene ATP4A is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Losartan targets its primary protein?",
+    "target_2hop": "ATP4A",
+    "query_3hop": "Following the 3-hop biological chain from Losartan, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_006",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Aspirin TARGETS AT1_Receptor.\nFact 2: AT1_Receptor is ENCODED_BY gene ACE.\nFact 3: Gene ACE is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Aspirin targets its primary protein?",
+    "target_2hop": "ACE",
+    "query_3hop": "Following the 3-hop biological chain from Aspirin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_007",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Omeprazole TARGETS ACE_Receptor.\nFact 2: ACE_Receptor is ENCODED_BY gene PRKAA1.\nFact 3: Gene PRKAA1 is ASSOCIATED_WITH Melanoma.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Omeprazole targets its primary protein?",
+    "target_2hop": "PRKAA1",
+    "query_3hop": "Following the 3-hop biological chain from Omeprazole, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Melanoma"
+  },
+  {
+    "id": "task_b_008",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS ACE_Receptor.\nFact 2: ACE_Receptor is ENCODED_BY gene AGTR1.\nFact 3: Gene AGTR1 is ASSOCIATED_WITH Melanoma.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "AGTR1",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Melanoma"
+  },
+  {
+    "id": "task_b_009",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Omeprazole TARGETS ProtonPump_K_ATPase.\nFact 2: ProtonPump_K_ATPase is ENCODED_BY gene ATP4A.\nFact 3: Gene ATP4A is ASSOCIATED_WITH Hypercholesterolemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Omeprazole targets its primary protein?",
+    "target_2hop": "ATP4A",
+    "query_3hop": "Following the 3-hop biological chain from Omeprazole, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypercholesterolemia"
+  },
+  {
+    "id": "task_b_010",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS PD1_Protein.\nFact 2: PD1_Protein is ENCODED_BY gene HMGCR.\nFact 3: Gene HMGCR is ASSOCIATED_WITH Hypercholesterolemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "HMGCR",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypercholesterolemia"
+  },
+  {
+    "id": "task_b_011",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Imatinib TARGETS ProtonPump_K_ATPase.\nFact 2: ProtonPump_K_ATPase is ENCODED_BY gene PRKAA1.\nFact 3: Gene PRKAA1 is ASSOCIATED_WITH Melanoma.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Imatinib targets its primary protein?",
+    "target_2hop": "PRKAA1",
+    "query_3hop": "Following the 3-hop biological chain from Imatinib, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Melanoma"
+  },
+  {
+    "id": "task_b_012",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Omeprazole TARGETS BCR_ABL_Kinase.\nFact 2: BCR_ABL_Kinase is ENCODED_BY gene ACE.\nFact 3: Gene ACE is ASSOCIATED_WITH MyocardialInfarction.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Omeprazole targets its primary protein?",
+    "target_2hop": "ACE",
+    "query_3hop": "Following the 3-hop biological chain from Omeprazole, which Disease is causally linked to this target pathway?",
+    "target_3hop": "MyocardialInfarction"
+  },
+  {
+    "id": "task_b_013",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Omeprazole TARGETS COX1_Enzyme.\nFact 2: COX1_Enzyme is ENCODED_BY gene AGTR1.\nFact 3: Gene AGTR1 is ASSOCIATED_WITH Melanoma.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Omeprazole targets its primary protein?",
+    "target_2hop": "AGTR1",
+    "query_3hop": "Following the 3-hop biological chain from Omeprazole, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Melanoma"
+  },
+  {
+    "id": "task_b_014",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Imatinib TARGETS PD1_Protein.\nFact 2: PD1_Protein is ENCODED_BY gene BCR_ABL1.\nFact 3: Gene BCR_ABL1 is ASSOCIATED_WITH Hypercholesterolemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Imatinib targets its primary protein?",
+    "target_2hop": "BCR_ABL1",
+    "query_3hop": "Following the 3-hop biological chain from Imatinib, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypercholesterolemia"
+  },
+  {
+    "id": "task_b_015",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Losartan TARGETS PD1_Protein.\nFact 2: PD1_Protein is ENCODED_BY gene HMGCR.\nFact 3: Gene HMGCR is ASSOCIATED_WITH GastroesophagealReflux.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Losartan targets its primary protein?",
+    "target_2hop": "HMGCR",
+    "query_3hop": "Following the 3-hop biological chain from Losartan, which Disease is causally linked to this target pathway?",
+    "target_3hop": "GastroesophagealReflux"
+  },
+  {
+    "id": "task_b_016",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Metformin TARGETS HMGCR_Enzyme.\nFact 2: HMGCR_Enzyme is ENCODED_BY gene HMGCR.\nFact 3: Gene HMGCR is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Metformin targets its primary protein?",
+    "target_2hop": "HMGCR",
+    "query_3hop": "Following the 3-hop biological chain from Metformin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_017",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS AT1_Receptor.\nFact 2: AT1_Receptor is ENCODED_BY gene PTGS1.\nFact 3: Gene PTGS1 is ASSOCIATED_WITH MyocardialInfarction.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "PTGS1",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "MyocardialInfarction"
+  },
+  {
+    "id": "task_b_018",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Metformin TARGETS BCR_ABL_Kinase.\nFact 2: BCR_ABL_Kinase is ENCODED_BY gene ATP4A.\nFact 3: Gene ATP4A is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Metformin targets its primary protein?",
+    "target_2hop": "ATP4A",
+    "query_3hop": "Following the 3-hop biological chain from Metformin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_019",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Losartan TARGETS COX1_Enzyme.\nFact 2: COX1_Enzyme is ENCODED_BY gene PRKAA1.\nFact 3: Gene PRKAA1 is ASSOCIATED_WITH Hypercholesterolemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Losartan targets its primary protein?",
+    "target_2hop": "PRKAA1",
+    "query_3hop": "Following the 3-hop biological chain from Losartan, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypercholesterolemia"
+  },
+  {
+    "id": "task_b_020",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Atorvastatin TARGETS BCR_ABL_Kinase.\nFact 2: BCR_ABL_Kinase is ENCODED_BY gene PDCD1.\nFact 3: Gene PDCD1 is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Atorvastatin targets its primary protein?",
+    "target_2hop": "PDCD1",
+    "query_3hop": "Following the 3-hop biological chain from Atorvastatin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_021",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Atorvastatin TARGETS ProtonPump_K_ATPase.\nFact 2: ProtonPump_K_ATPase is ENCODED_BY gene PTGS1.\nFact 3: Gene PTGS1 is ASSOCIATED_WITH Type2Diabetes.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Atorvastatin targets its primary protein?",
+    "target_2hop": "PTGS1",
+    "query_3hop": "Following the 3-hop biological chain from Atorvastatin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Type2Diabetes"
+  },
+  {
+    "id": "task_b_022",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Omeprazole TARGETS PD1_Protein.\nFact 2: PD1_Protein is ENCODED_BY gene PRKAA1.\nFact 3: Gene PRKAA1 is ASSOCIATED_WITH ChronicMyeloidLeukemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Omeprazole targets its primary protein?",
+    "target_2hop": "PRKAA1",
+    "query_3hop": "Following the 3-hop biological chain from Omeprazole, which Disease is causally linked to this target pathway?",
+    "target_3hop": "ChronicMyeloidLeukemia"
+  },
+  {
+    "id": "task_b_023",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS COX1_Enzyme.\nFact 2: COX1_Enzyme is ENCODED_BY gene ACE.\nFact 3: Gene ACE is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "ACE",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_024",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Aspirin TARGETS BCR_ABL_Kinase.\nFact 2: BCR_ABL_Kinase is ENCODED_BY gene AGTR1.\nFact 3: Gene AGTR1 is ASSOCIATED_WITH Hypercholesterolemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Aspirin targets its primary protein?",
+    "target_2hop": "AGTR1",
+    "query_3hop": "Following the 3-hop biological chain from Aspirin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypercholesterolemia"
+  },
+  {
+    "id": "task_b_025",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Pembrolizumab TARGETS AT1_Receptor.\nFact 2: AT1_Receptor is ENCODED_BY gene ATP4A.\nFact 3: Gene ATP4A is ASSOCIATED_WITH ChronicMyeloidLeukemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Pembrolizumab targets its primary protein?",
+    "target_2hop": "ATP4A",
+    "query_3hop": "Following the 3-hop biological chain from Pembrolizumab, which Disease is causally linked to this target pathway?",
+    "target_3hop": "ChronicMyeloidLeukemia"
+  },
+  {
+    "id": "task_b_026",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Aspirin TARGETS PD1_Protein.\nFact 2: PD1_Protein is ENCODED_BY gene PDCD1.\nFact 3: Gene PDCD1 is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Aspirin targets its primary protein?",
+    "target_2hop": "PDCD1",
+    "query_3hop": "Following the 3-hop biological chain from Aspirin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_027",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Metformin TARGETS PD1_Protein.\nFact 2: PD1_Protein is ENCODED_BY gene PRKAA1.\nFact 3: Gene PRKAA1 is ASSOCIATED_WITH Melanoma.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Metformin targets its primary protein?",
+    "target_2hop": "PRKAA1",
+    "query_3hop": "Following the 3-hop biological chain from Metformin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Melanoma"
+  },
+  {
+    "id": "task_b_028",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Pembrolizumab TARGETS AMPK_Enzyme.\nFact 2: AMPK_Enzyme is ENCODED_BY gene ATP4A.\nFact 3: Gene ATP4A is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Pembrolizumab targets its primary protein?",
+    "target_2hop": "ATP4A",
+    "query_3hop": "Following the 3-hop biological chain from Pembrolizumab, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_029",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Pembrolizumab TARGETS COX1_Enzyme.\nFact 2: COX1_Enzyme is ENCODED_BY gene PDCD1.\nFact 3: Gene PDCD1 is ASSOCIATED_WITH ChronicMyeloidLeukemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Pembrolizumab targets its primary protein?",
+    "target_2hop": "PDCD1",
+    "query_3hop": "Following the 3-hop biological chain from Pembrolizumab, which Disease is causally linked to this target pathway?",
+    "target_3hop": "ChronicMyeloidLeukemia"
+  },
+  {
+    "id": "task_b_030",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Aspirin TARGETS COX1_Enzyme.\nFact 2: COX1_Enzyme is ENCODED_BY gene AGTR1.\nFact 3: Gene AGTR1 is ASSOCIATED_WITH Melanoma.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Aspirin targets its primary protein?",
+    "target_2hop": "AGTR1",
+    "query_3hop": "Following the 3-hop biological chain from Aspirin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Melanoma"
+  },
+  {
+    "id": "task_b_031",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS ProtonPump_K_ATPase.\nFact 2: ProtonPump_K_ATPase is ENCODED_BY gene AGTR1.\nFact 3: Gene AGTR1 is ASSOCIATED_WITH MyocardialInfarction.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "AGTR1",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "MyocardialInfarction"
+  },
+  {
+    "id": "task_b_032",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Metformin TARGETS AMPK_Enzyme.\nFact 2: AMPK_Enzyme is ENCODED_BY gene AGTR1.\nFact 3: Gene AGTR1 is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Metformin targets its primary protein?",
+    "target_2hop": "AGTR1",
+    "query_3hop": "Following the 3-hop biological chain from Metformin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_033",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Pembrolizumab TARGETS PD1_Protein.\nFact 2: PD1_Protein is ENCODED_BY gene PTGS1.\nFact 3: Gene PTGS1 is ASSOCIATED_WITH Melanoma.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Pembrolizumab targets its primary protein?",
+    "target_2hop": "PTGS1",
+    "query_3hop": "Following the 3-hop biological chain from Pembrolizumab, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Melanoma"
+  },
+  {
+    "id": "task_b_034",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Atorvastatin TARGETS COX1_Enzyme.\nFact 2: COX1_Enzyme is ENCODED_BY gene PDCD1.\nFact 3: Gene PDCD1 is ASSOCIATED_WITH ChronicMyeloidLeukemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Atorvastatin targets its primary protein?",
+    "target_2hop": "PDCD1",
+    "query_3hop": "Following the 3-hop biological chain from Atorvastatin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "ChronicMyeloidLeukemia"
+  },
+  {
+    "id": "task_b_035",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS AMPK_Enzyme.\nFact 2: AMPK_Enzyme is ENCODED_BY gene ACE.\nFact 3: Gene ACE is ASSOCIATED_WITH Type2Diabetes.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "ACE",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Type2Diabetes"
+  },
+  {
+    "id": "task_b_036",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Losartan TARGETS COX1_Enzyme.\nFact 2: COX1_Enzyme is ENCODED_BY gene PDCD1.\nFact 3: Gene PDCD1 is ASSOCIATED_WITH Atherosclerosis.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Losartan targets its primary protein?",
+    "target_2hop": "PDCD1",
+    "query_3hop": "Following the 3-hop biological chain from Losartan, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Atherosclerosis"
+  },
+  {
+    "id": "task_b_037",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Atorvastatin TARGETS AMPK_Enzyme.\nFact 2: AMPK_Enzyme is ENCODED_BY gene AGTR1.\nFact 3: Gene AGTR1 is ASSOCIATED_WITH MyocardialInfarction.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Atorvastatin targets its primary protein?",
+    "target_2hop": "AGTR1",
+    "query_3hop": "Following the 3-hop biological chain from Atorvastatin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "MyocardialInfarction"
+  },
+  {
+    "id": "task_b_038",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Imatinib TARGETS COX1_Enzyme.\nFact 2: COX1_Enzyme is ENCODED_BY gene HMGCR.\nFact 3: Gene HMGCR is ASSOCIATED_WITH MyocardialInfarction.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Imatinib targets its primary protein?",
+    "target_2hop": "HMGCR",
+    "query_3hop": "Following the 3-hop biological chain from Imatinib, which Disease is causally linked to this target pathway?",
+    "target_3hop": "MyocardialInfarction"
+  },
+  {
+    "id": "task_b_039",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Pembrolizumab TARGETS AMPK_Enzyme.\nFact 2: AMPK_Enzyme is ENCODED_BY gene ATP4A.\nFact 3: Gene ATP4A is ASSOCIATED_WITH Type2Diabetes.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Pembrolizumab targets its primary protein?",
+    "target_2hop": "ATP4A",
+    "query_3hop": "Following the 3-hop biological chain from Pembrolizumab, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Type2Diabetes"
+  },
+  {
+    "id": "task_b_040",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Aspirin TARGETS AMPK_Enzyme.\nFact 2: AMPK_Enzyme is ENCODED_BY gene ACE.\nFact 3: Gene ACE is ASSOCIATED_WITH Hypercholesterolemia.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Aspirin targets its primary protein?",
+    "target_2hop": "ACE",
+    "query_3hop": "Following the 3-hop biological chain from Aspirin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypercholesterolemia"
+  },
+  {
+    "id": "task_b_041",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS AT1_Receptor.\nFact 2: AT1_Receptor is ENCODED_BY gene ACE.\nFact 3: Gene ACE is ASSOCIATED_WITH Melanoma.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "ACE",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Melanoma"
+  },
+  {
+    "id": "task_b_042",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Metformin TARGETS AT1_Receptor.\nFact 2: AT1_Receptor is ENCODED_BY gene ATP4A.\nFact 3: Gene ATP4A is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Metformin targets its primary protein?",
+    "target_2hop": "ATP4A",
+    "query_3hop": "Following the 3-hop biological chain from Metformin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_043",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Omeprazole TARGETS BCR_ABL_Kinase.\nFact 2: BCR_ABL_Kinase is ENCODED_BY gene AGTR1.\nFact 3: Gene AGTR1 is ASSOCIATED_WITH Melanoma.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Omeprazole targets its primary protein?",
+    "target_2hop": "AGTR1",
+    "query_3hop": "Following the 3-hop biological chain from Omeprazole, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Melanoma"
+  },
+  {
+    "id": "task_b_044",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Aspirin TARGETS ACE_Receptor.\nFact 2: ACE_Receptor is ENCODED_BY gene PRKAA1.\nFact 3: Gene PRKAA1 is ASSOCIATED_WITH GastroesophagealReflux.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Aspirin targets its primary protein?",
+    "target_2hop": "PRKAA1",
+    "query_3hop": "Following the 3-hop biological chain from Aspirin, which Disease is causally linked to this target pathway?",
+    "target_3hop": "GastroesophagealReflux"
+  },
+  {
+    "id": "task_b_045",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS PD1_Protein.\nFact 2: PD1_Protein is ENCODED_BY gene BCR_ABL1.\nFact 3: Gene BCR_ABL1 is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "BCR_ABL1",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_046",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS ProtonPump_K_ATPase.\nFact 2: ProtonPump_K_ATPase is ENCODED_BY gene BCR_ABL1.\nFact 3: Gene BCR_ABL1 is ASSOCIATED_WITH Melanoma.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "BCR_ABL1",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Melanoma"
+  },
+  {
+    "id": "task_b_047",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Imatinib TARGETS BCR_ABL_Kinase.\nFact 2: BCR_ABL_Kinase is ENCODED_BY gene ACE.\nFact 3: Gene ACE is ASSOCIATED_WITH Type2Diabetes.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Imatinib targets its primary protein?",
+    "target_2hop": "ACE",
+    "query_3hop": "Following the 3-hop biological chain from Imatinib, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Type2Diabetes"
+  },
+  {
+    "id": "task_b_048",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Lisinopril TARGETS HMGCR_Enzyme.\nFact 2: HMGCR_Enzyme is ENCODED_BY gene BCR_ABL1.\nFact 3: Gene BCR_ABL1 is ASSOCIATED_WITH Hypertension.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Lisinopril targets its primary protein?",
+    "target_2hop": "BCR_ABL1",
+    "query_3hop": "Following the 3-hop biological chain from Lisinopril, which Disease is causally linked to this target pathway?",
+    "target_3hop": "Hypertension"
+  },
+  {
+    "id": "task_b_049",
+    "task_type": "multi_hop_deduction",
+    "subgraph_context": "Fact 1: Pembrolizumab TARGETS PD1_Protein.\nFact 2: PD1_Protein is ENCODED_BY gene BCR_ABL1.\nFact 3: Gene BCR_ABL1 is ASSOCIATED_WITH GastroesophagealReflux.",
+    "query_2hop": "Based on the pathway facts, which Gene is modulated when Pembrolizumab targets its primary protein?",
+    "target_2hop": "BCR_ABL1",
+    "query_3hop": "Following the 3-hop biological chain from Pembrolizumab, which Disease is causally linked to this target pathway?",
+    "target_3hop": "GastroesophagealReflux"
+  }
+]

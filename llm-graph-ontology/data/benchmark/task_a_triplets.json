@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "task_a_000",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats Type2Diabetes. However, patients occasionally report ImmuneColitis as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the BCR_ABL_Kinase.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "Type2Diabetes"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "ImmuneColitis"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "BCR_ABL_Kinase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_001",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats Hypertension. However, patients occasionally report LacticAcidosis as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the AT1_Receptor.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "LacticAcidosis"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "AT1_Receptor"
+      }
+    ]
+  },
+  {
+    "id": "task_a_002",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Pembrolizumab effectively treats Melanoma. However, patients occasionally report Hyperkalemia as an adverse reaction. Biochemical assays demonstrate that Pembrolizumab primarily targets the AMPK_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TREATS",
+        "object": "Melanoma"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Hyperkalemia"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TARGETS",
+        "object": "AMPK_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_003",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Aspirin effectively treats ChronicMyeloidLeukemia. However, patients occasionally report Hyperkalemia as an adverse reaction. Biochemical assays demonstrate that Aspirin primarily targets the AMPK_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Aspirin",
+        "predicate": "TREATS",
+        "object": "ChronicMyeloidLeukemia"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Hyperkalemia"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "TARGETS",
+        "object": "AMPK_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_004",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Imatinib effectively treats Hypercholesterolemia. However, patients occasionally report DryCough as an adverse reaction. Biochemical assays demonstrate that Imatinib primarily targets the PD1_Protein.",
+    "target_triples": [
+      {
+        "subject": "Imatinib",
+        "predicate": "TREATS",
+        "object": "Hypercholesterolemia"
+      },
+      {
+        "subject": "Imatinib",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "DryCough"
+      },
+      {
+        "subject": "Imatinib",
+        "predicate": "TARGETS",
+        "object": "PD1_Protein"
+      }
+    ]
+  },
+  {
+    "id": "task_a_005",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Losartan effectively treats Hypertension. However, patients occasionally report FluidRetention as an adverse reaction. Biochemical assays demonstrate that Losartan primarily targets the ProtonPump_K_ATPase.",
+    "target_triples": [
+      {
+        "subject": "Losartan",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Losartan",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "FluidRetention"
+      },
+      {
+        "subject": "Losartan",
+        "predicate": "TARGETS",
+        "object": "ProtonPump_K_ATPase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_006",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Aspirin effectively treats Hypertension. However, patients occasionally report FluidRetention as an adverse reaction. Biochemical assays demonstrate that Aspirin primarily targets the AT1_Receptor.",
+    "target_triples": [
+      {
+        "subject": "Aspirin",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "FluidRetention"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "TARGETS",
+        "object": "AT1_Receptor"
+      }
+    ]
+  },
+  {
+    "id": "task_a_007",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Omeprazole effectively treats Melanoma. However, patients occasionally report ImmuneColitis as an adverse reaction. Biochemical assays demonstrate that Omeprazole primarily targets the ACE_Receptor.",
+    "target_triples": [
+      {
+        "subject": "Omeprazole",
+        "predicate": "TREATS",
+        "object": "Melanoma"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "ImmuneColitis"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "TARGETS",
+        "object": "ACE_Receptor"
+      }
+    ]
+  },
+  {
+    "id": "task_a_008",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats Melanoma. However, patients occasionally report FluidRetention as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the ACE_Receptor.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "Melanoma"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "FluidRetention"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "ACE_Receptor"
+      }
+    ]
+  },
+  {
+    "id": "task_a_009",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Omeprazole effectively treats Hypercholesterolemia. However, patients occasionally report ImmuneColitis as an adverse reaction. Biochemical assays demonstrate that Omeprazole primarily targets the ProtonPump_K_ATPase.",
+    "target_triples": [
+      {
+        "subject": "Omeprazole",
+        "predicate": "TREATS",
+        "object": "Hypercholesterolemia"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "ImmuneColitis"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "TARGETS",
+        "object": "ProtonPump_K_ATPase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_010",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats Hypercholesterolemia. However, patients occasionally report GastricUlcer as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the PD1_Protein.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "Hypercholesterolemia"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "GastricUlcer"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "PD1_Protein"
+      }
+    ]
+  },
+  {
+    "id": "task_a_011",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Imatinib effectively treats Melanoma. However, patients occasionally report ImmuneColitis as an adverse reaction. Biochemical assays demonstrate that Imatinib primarily targets the ProtonPump_K_ATPase.",
+    "target_triples": [
+      {
+        "subject": "Imatinib",
+        "predicate": "TREATS",
+        "object": "Melanoma"
+      },
+      {
+        "subject": "Imatinib",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "ImmuneColitis"
+      },
+      {
+        "subject": "Imatinib",
+        "predicate": "TARGETS",
+        "object": "ProtonPump_K_ATPase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_012",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Omeprazole effectively treats MyocardialInfarction. However, patients occasionally report ImmuneColitis as an adverse reaction. Biochemical assays demonstrate that Omeprazole primarily targets the BCR_ABL_Kinase.",
+    "target_triples": [
+      {
+        "subject": "Omeprazole",
+        "predicate": "TREATS",
+        "object": "MyocardialInfarction"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "ImmuneColitis"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "TARGETS",
+        "object": "BCR_ABL_Kinase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_013",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Omeprazole effectively treats Melanoma. However, patients occasionally report GastricUlcer as an adverse reaction. Biochemical assays demonstrate that Omeprazole primarily targets the COX1_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Omeprazole",
+        "predicate": "TREATS",
+        "object": "Melanoma"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "GastricUlcer"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "TARGETS",
+        "object": "COX1_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_014",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Imatinib effectively treats Hypercholesterolemia. However, patients occasionally report Hyperkalemia as an adverse reaction. Biochemical assays demonstrate that Imatinib primarily targets the PD1_Protein.",
+    "target_triples": [
+      {
+        "subject": "Imatinib",
+        "predicate": "TREATS",
+        "object": "Hypercholesterolemia"
+      },
+      {
+        "subject": "Imatinib",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Hyperkalemia"
+      },
+      {
+        "subject": "Imatinib",
+        "predicate": "TARGETS",
+        "object": "PD1_Protein"
+      }
+    ]
+  },
+  {
+    "id": "task_a_015",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Losartan effectively treats GastroesophagealReflux. However, patients occasionally report GastricUlcer as an adverse reaction. Biochemical assays demonstrate that Losartan primarily targets the PD1_Protein.",
+    "target_triples": [
+      {
+        "subject": "Losartan",
+        "predicate": "TREATS",
+        "object": "GastroesophagealReflux"
+      },
+      {
+        "subject": "Losartan",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "GastricUlcer"
+      },
+      {
+        "subject": "Losartan",
+        "predicate": "TARGETS",
+        "object": "PD1_Protein"
+      }
+    ]
+  },
+  {
+    "id": "task_a_016",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Metformin effectively treats Hypertension. However, patients occasionally report Hyperkalemia as an adverse reaction. Biochemical assays demonstrate that Metformin primarily targets the HMGCR_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Metformin",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Metformin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Hyperkalemia"
+      },
+      {
+        "subject": "Metformin",
+        "predicate": "TARGETS",
+        "object": "HMGCR_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_017",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats MyocardialInfarction. However, patients occasionally report FluidRetention as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the AT1_Receptor.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "MyocardialInfarction"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "FluidRetention"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "AT1_Receptor"
+      }
+    ]
+  },
+  {
+    "id": "task_a_018",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Metformin effectively treats Hypertension. However, patients occasionally report DryCough as an adverse reaction. Biochemical assays demonstrate that Metformin primarily targets the BCR_ABL_Kinase.",
+    "target_triples": [
+      {
+        "subject": "Metformin",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Metformin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "DryCough"
+      },
+      {
+        "subject": "Metformin",
+        "predicate": "TARGETS",
+        "object": "BCR_ABL_Kinase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_019",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Losartan effectively treats Hypercholesterolemia. However, patients occasionally report FluidRetention as an adverse reaction. Biochemical assays demonstrate that Losartan primarily targets the COX1_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Losartan",
+        "predicate": "TREATS",
+        "object": "Hypercholesterolemia"
+      },
+      {
+        "subject": "Losartan",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "FluidRetention"
+      },
+      {
+        "subject": "Losartan",
+        "predicate": "TARGETS",
+        "object": "COX1_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_020",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Atorvastatin effectively treats Hypertension. However, patients occasionally report Myopathy as an adverse reaction. Biochemical assays demonstrate that Atorvastatin primarily targets the BCR_ABL_Kinase.",
+    "target_triples": [
+      {
+        "subject": "Atorvastatin",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Atorvastatin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Myopathy"
+      },
+      {
+        "subject": "Atorvastatin",
+        "predicate": "TARGETS",
+        "object": "BCR_ABL_Kinase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_021",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Atorvastatin effectively treats Type2Diabetes. However, patients occasionally report LacticAcidosis as an adverse reaction. Biochemical assays demonstrate that Atorvastatin primarily targets the ProtonPump_K_ATPase.",
+    "target_triples": [
+      {
+        "subject": "Atorvastatin",
+        "predicate": "TREATS",
+        "object": "Type2Diabetes"
+      },
+      {
+        "subject": "Atorvastatin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "LacticAcidosis"
+      },
+      {
+        "subject": "Atorvastatin",
+        "predicate": "TARGETS",
+        "object": "ProtonPump_K_ATPase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_022",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Omeprazole effectively treats ChronicMyeloidLeukemia. However, patients occasionally report ImmuneColitis as an adverse reaction. Biochemical assays demonstrate that Omeprazole primarily targets the PD1_Protein.",
+    "target_triples": [
+      {
+        "subject": "Omeprazole",
+        "predicate": "TREATS",
+        "object": "ChronicMyeloidLeukemia"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "ImmuneColitis"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "TARGETS",
+        "object": "PD1_Protein"
+      }
+    ]
+  },
+  {
+    "id": "task_a_023",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats Hypertension. However, patients occasionally report Myopathy as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the COX1_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Myopathy"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "COX1_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_024",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Aspirin effectively treats Hypercholesterolemia. However, patients occasionally report ImmuneColitis as an adverse reaction. Biochemical assays demonstrate that Aspirin primarily targets the BCR_ABL_Kinase.",
+    "target_triples": [
+      {
+        "subject": "Aspirin",
+        "predicate": "TREATS",
+        "object": "Hypercholesterolemia"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "ImmuneColitis"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "TARGETS",
+        "object": "BCR_ABL_Kinase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_025",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Pembrolizumab effectively treats ChronicMyeloidLeukemia. However, patients occasionally report GastricUlcer as an adverse reaction. Biochemical assays demonstrate that Pembrolizumab primarily targets the AT1_Receptor.",
+    "target_triples": [
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TREATS",
+        "object": "ChronicMyeloidLeukemia"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "GastricUlcer"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TARGETS",
+        "object": "AT1_Receptor"
+      }
+    ]
+  },
+  {
+    "id": "task_a_026",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Aspirin effectively treats Hypertension. However, patients occasionally report DryCough as an adverse reaction. Biochemical assays demonstrate that Aspirin primarily targets the PD1_Protein.",
+    "target_triples": [
+      {
+        "subject": "Aspirin",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "DryCough"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "TARGETS",
+        "object": "PD1_Protein"
+      }
+    ]
+  },
+  {
+    "id": "task_a_027",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Metformin effectively treats Melanoma. However, patients occasionally report DryCough as an adverse reaction. Biochemical assays demonstrate that Metformin primarily targets the PD1_Protein.",
+    "target_triples": [
+      {
+        "subject": "Metformin",
+        "predicate": "TREATS",
+        "object": "Melanoma"
+      },
+      {
+        "subject": "Metformin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "DryCough"
+      },
+      {
+        "subject": "Metformin",
+        "predicate": "TARGETS",
+        "object": "PD1_Protein"
+      }
+    ]
+  },
+  {
+    "id": "task_a_028",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Pembrolizumab effectively treats Hypertension. However, patients occasionally report DryCough as an adverse reaction. Biochemical assays demonstrate that Pembrolizumab primarily targets the AMPK_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "DryCough"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TARGETS",
+        "object": "AMPK_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_029",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Pembrolizumab effectively treats ChronicMyeloidLeukemia. However, patients occasionally report Myopathy as an adverse reaction. Biochemical assays demonstrate that Pembrolizumab primarily targets the COX1_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TREATS",
+        "object": "ChronicMyeloidLeukemia"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Myopathy"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TARGETS",
+        "object": "COX1_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_030",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Aspirin effectively treats Melanoma. However, patients occasionally report ImmuneColitis as an adverse reaction. Biochemical assays demonstrate that Aspirin primarily targets the COX1_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Aspirin",
+        "predicate": "TREATS",
+        "object": "Melanoma"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "ImmuneColitis"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "TARGETS",
+        "object": "COX1_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_031",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats MyocardialInfarction. However, patients occasionally report Hyperkalemia as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the ProtonPump_K_ATPase.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "MyocardialInfarction"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Hyperkalemia"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "ProtonPump_K_ATPase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_032",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Metformin effectively treats Hypertension. However, patients occasionally report Hypomagnesemia as an adverse reaction. Biochemical assays demonstrate that Metformin primarily targets the AMPK_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Metformin",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Metformin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Hypomagnesemia"
+      },
+      {
+        "subject": "Metformin",
+        "predicate": "TARGETS",
+        "object": "AMPK_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_033",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Pembrolizumab effectively treats Melanoma. However, patients occasionally report Myopathy as an adverse reaction. Biochemical assays demonstrate that Pembrolizumab primarily targets the PD1_Protein.",
+    "target_triples": [
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TREATS",
+        "object": "Melanoma"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Myopathy"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TARGETS",
+        "object": "PD1_Protein"
+      }
+    ]
+  },
+  {
+    "id": "task_a_034",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Atorvastatin effectively treats ChronicMyeloidLeukemia. However, patients occasionally report DryCough as an adverse reaction. Biochemical assays demonstrate that Atorvastatin primarily targets the COX1_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Atorvastatin",
+        "predicate": "TREATS",
+        "object": "ChronicMyeloidLeukemia"
+      },
+      {
+        "subject": "Atorvastatin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "DryCough"
+      },
+      {
+        "subject": "Atorvastatin",
+        "predicate": "TARGETS",
+        "object": "COX1_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_035",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats Type2Diabetes. However, patients occasionally report ImmuneColitis as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the AMPK_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "Type2Diabetes"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "ImmuneColitis"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "AMPK_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_036",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Losartan effectively treats Atherosclerosis. However, patients occasionally report Hyperkalemia as an adverse reaction. Biochemical assays demonstrate that Losartan primarily targets the COX1_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Losartan",
+        "predicate": "TREATS",
+        "object": "Atherosclerosis"
+      },
+      {
+        "subject": "Losartan",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Hyperkalemia"
+      },
+      {
+        "subject": "Losartan",
+        "predicate": "TARGETS",
+        "object": "COX1_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_037",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Atorvastatin effectively treats MyocardialInfarction. However, patients occasionally report FluidRetention as an adverse reaction. Biochemical assays demonstrate that Atorvastatin primarily targets the AMPK_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Atorvastatin",
+        "predicate": "TREATS",
+        "object": "MyocardialInfarction"
+      },
+      {
+        "subject": "Atorvastatin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "FluidRetention"
+      },
+      {
+        "subject": "Atorvastatin",
+        "predicate": "TARGETS",
+        "object": "AMPK_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_038",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Imatinib effectively treats MyocardialInfarction. However, patients occasionally report ImmuneColitis as an adverse reaction. Biochemical assays demonstrate that Imatinib primarily targets the COX1_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Imatinib",
+        "predicate": "TREATS",
+        "object": "MyocardialInfarction"
+      },
+      {
+        "subject": "Imatinib",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "ImmuneColitis"
+      },
+      {
+        "subject": "Imatinib",
+        "predicate": "TARGETS",
+        "object": "COX1_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_039",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Pembrolizumab effectively treats Type2Diabetes. However, patients occasionally report LacticAcidosis as an adverse reaction. Biochemical assays demonstrate that Pembrolizumab primarily targets the AMPK_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TREATS",
+        "object": "Type2Diabetes"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "LacticAcidosis"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TARGETS",
+        "object": "AMPK_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_040",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Aspirin effectively treats Hypercholesterolemia. However, patients occasionally report Myopathy as an adverse reaction. Biochemical assays demonstrate that Aspirin primarily targets the AMPK_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Aspirin",
+        "predicate": "TREATS",
+        "object": "Hypercholesterolemia"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Myopathy"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "TARGETS",
+        "object": "AMPK_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_041",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats Melanoma. However, patients occasionally report ImmuneColitis as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the AT1_Receptor.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "Melanoma"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "ImmuneColitis"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "AT1_Receptor"
+      }
+    ]
+  },
+  {
+    "id": "task_a_042",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Metformin effectively treats Hypertension. However, patients occasionally report FluidRetention as an adverse reaction. Biochemical assays demonstrate that Metformin primarily targets the AT1_Receptor.",
+    "target_triples": [
+      {
+        "subject": "Metformin",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Metformin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "FluidRetention"
+      },
+      {
+        "subject": "Metformin",
+        "predicate": "TARGETS",
+        "object": "AT1_Receptor"
+      }
+    ]
+  },
+  {
+    "id": "task_a_043",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Omeprazole effectively treats Melanoma. However, patients occasionally report Myopathy as an adverse reaction. Biochemical assays demonstrate that Omeprazole primarily targets the BCR_ABL_Kinase.",
+    "target_triples": [
+      {
+        "subject": "Omeprazole",
+        "predicate": "TREATS",
+        "object": "Melanoma"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Myopathy"
+      },
+      {
+        "subject": "Omeprazole",
+        "predicate": "TARGETS",
+        "object": "BCR_ABL_Kinase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_044",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Aspirin effectively treats GastroesophagealReflux. However, patients occasionally report GastricUlcer as an adverse reaction. Biochemical assays demonstrate that Aspirin primarily targets the ACE_Receptor.",
+    "target_triples": [
+      {
+        "subject": "Aspirin",
+        "predicate": "TREATS",
+        "object": "GastroesophagealReflux"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "GastricUlcer"
+      },
+      {
+        "subject": "Aspirin",
+        "predicate": "TARGETS",
+        "object": "ACE_Receptor"
+      }
+    ]
+  },
+  {
+    "id": "task_a_045",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats Hypertension. However, patients occasionally report Myopathy as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the PD1_Protein.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Myopathy"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "PD1_Protein"
+      }
+    ]
+  },
+  {
+    "id": "task_a_046",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats Melanoma. However, patients occasionally report Myopathy as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the ProtonPump_K_ATPase.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "Melanoma"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Myopathy"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "ProtonPump_K_ATPase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_047",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Imatinib effectively treats Type2Diabetes. However, patients occasionally report Myopathy as an adverse reaction. Biochemical assays demonstrate that Imatinib primarily targets the BCR_ABL_Kinase.",
+    "target_triples": [
+      {
+        "subject": "Imatinib",
+        "predicate": "TREATS",
+        "object": "Type2Diabetes"
+      },
+      {
+        "subject": "Imatinib",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "Myopathy"
+      },
+      {
+        "subject": "Imatinib",
+        "predicate": "TARGETS",
+        "object": "BCR_ABL_Kinase"
+      }
+    ]
+  },
+  {
+    "id": "task_a_048",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Lisinopril effectively treats Hypertension. However, patients occasionally report FluidRetention as an adverse reaction. Biochemical assays demonstrate that Lisinopril primarily targets the HMGCR_Enzyme.",
+    "target_triples": [
+      {
+        "subject": "Lisinopril",
+        "predicate": "TREATS",
+        "object": "Hypertension"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "FluidRetention"
+      },
+      {
+        "subject": "Lisinopril",
+        "predicate": "TARGETS",
+        "object": "HMGCR_Enzyme"
+      }
+    ]
+  },
+  {
+    "id": "task_a_049",
+    "task_type": "triplet_extraction",
+    "input_text": "Clinical trials confirm that Pembrolizumab effectively treats GastroesophagealReflux. However, patients occasionally report GastricUlcer as an adverse reaction. Biochemical assays demonstrate that Pembrolizumab primarily targets the PD1_Protein.",
+    "target_triples": [
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TREATS",
+        "object": "GastroesophagealReflux"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "CAUSES_SIDE_EFFECT",
+        "object": "GastricUlcer"
+      },
+      {
+        "subject": "Pembrolizumab",
+        "predicate": "TARGETS",
+        "object": "PD1_Protein"
+      }
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "ontology_name": "BiomedicalEcosystemOntology",
+  "version": "1.0.0",
+  "description": "Formal domain ontology defining clinical entities, pharmaceutical relations, and multi-hop deductive rules.",
+  "entity_classes": [
+    {
+      "class": "Drug",
+      "description": "Pharmaceutical compounds, medications, or active ingredients."
+    },
+    {
+      "class": "Disease",
+      "description": "Medical conditions, syndromes, disorders, or pathologies."
+    },
+    {
+      "class": "Gene",
+      "description": "Biological genes, genetic mutations, or chromosomal targets."
+    },
+    {
+      "class": "Protein",
+      "description": "Proteins, receptors, or biological macromolecules."
+    },
+    {
+      "class": "SideEffect",
+      "description": "Adverse drug reactions or clinical complications."
+    }
+  ],
+  "allowed_relations": [
+    {
+      "relation": "TREATS",
+      "domain": "Drug",
+      "range": "Disease",
+      "inverse": "TREATED_BY",
+      "description": "Drug is prescribed or indicated for treating Disease."
+    },
+    {
+      "relation": "CAUSES_SIDE_EFFECT",
+      "domain": "Drug",
+      "range": "SideEffect",
+      "inverse": "SIDE_EFFECT_OF",
+      "description": "Drug produces an adverse physiological SideEffect."
+    },
+    {
+      "relation": "TARGETS",
+      "domain": "Drug",
+      "range": "Protein",
+      "inverse": "TARGETED_BY",
+      "description": "Drug binds to or interacts with Protein/receptor."
+    },
+    {
+      "relation": "ENCODED_BY",
+      "domain": "Protein",
+      "range": "Gene",
+      "inverse": "ENCODES",
+      "description": "Protein is synthesized/encoded by Gene."
+    },
+    {
+      "relation": "ASSOCIATED_WITH",
+      "domain": "Gene",
+      "range": "Disease",
+      "inverse": "LINKED_TO_GENE",
+      "description": "Genetic mutation or expression is associated with Disease."
+    }
+  ],
+  "deductive_rules": [
+    {
+      "rule_name": "MechanisticPathwayDeduction",
+      "hop_count": 2,
+      "premise": [
+        "(Drug_X, TARGETS, Protein_Y)",
+        "(Protein_Y, ENCODED_BY, Gene_Z)"
+      ],
+      "deduction": "(Drug_X, MODULATES_GENE_PATHWAY, Gene_Z)"
+    },
+    {
+      "rule_name": "EtiologicalTargeting",
+      "hop_count": 3,
+      "premise": [
+        "(Drug_X, TARGETS, Protein_Y)",
+        "(Protein_Y, ENCODED_BY, Gene_Z)",
+        "(Gene_Z, ASSOCIATED_WITH, Disease_W)"
+      ],
+      "deduction": "(Drug_X, HAS_POTENTIAL_INDICATION_FOR, Disease_W)"
+    }
+  ]
+}

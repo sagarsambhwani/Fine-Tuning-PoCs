@@ -1,0 +1,18 @@
+# Environment & Caches
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+hf_cache/
+
+# Model Weights & Checkpoints (Large files excluded from Git)
+models/adapters/*
+!models/adapters/.gitkeep
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+*.safetensors
+*.bin
+*.pt
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
