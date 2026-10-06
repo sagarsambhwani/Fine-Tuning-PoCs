@@ -43,7 +43,9 @@ Welcome to **Phase 2 (`notebooks_v2`)**! Having mastered foundational LoRA, QLoR
 ---
 
 ### 🎯 Day 9: Reference-Free Alignment (ORPO & KTO)
-* **Notebook**: `notebooks_v2/day09_orpo_kto.ipynb`
+* **Notebook**: [`notebooks_v2/day09_orpo_kto.ipynb`](day09_orpo_kto.ipynb)
+* **Report**: [`reports/day09_orpo_kto_report.md`](../reports/day09_orpo_kto_report.md)
+* **Status**: **Ready for Execution & Hands-on** 🟡
 * **Focus**: Eliminating the GPU memory overhead of keeping a frozen reference model in VRAM during alignment.
 * **Key Concepts**:
   * **ORPO (Odds Ratio Preference Optimization)**: Combines standard SFT cross-entropy loss with an odds-ratio penalty in a single training loop:
