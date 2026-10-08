@@ -81,3 +81,20 @@ Training was executed over **225 optimization steps** (3 epochs across 1,200 dom
 - **Track 1 Notebook**: [`llm-graph-ontology/notebooks/02_track1_pure_llm_finetuning.ipynb`](file:///e:/Downloads/Fine-tune/llm-graph-ontology/notebooks/02_track1_pure_llm_finetuning.ipynb)
 - **Evaluation Dataset**: `llm-graph-ontology/data/benchmark/`
 - **Next Milestone**: **Track 2: Graph Neural Networks (GNN / GAT) for Inductive Graph Embedding & Link Prediction**.
+
+---
+
+## 6. Production Recipe: Remote Kernel Model Artifact Export
+
+When executing training on remote GPU compute (Google Colab / cloud Jupyter) from a local IDE (VS Code / Antigravity), browser-dependent hooks (`files.download()`, `drive.mount()`) are blocked by the remote client.
+
+### Primary Export Method: Direct HTTPS Stream (`temp.sh` / `curl`)
+```bash
+# 1. Zip the adapter directory (excluding temporary intermediate checkpoints)
+shutil.make_archive("qwen_1.5b_legal_graph_adapter", "zip", "models/qwen-1.5b-legal-graph-adapter")
+
+# 2. Upload via temporary stream to generate an instant direct HTTPS download link (zero tokens required)
+!curl -F "file=@qwen_1.5b_legal_graph_adapter.zip" https://temp.sh/upload
+```
+*Alternative stream endpoint*: `!curl --upload-file qwen_1.5b_legal_graph_adapter.zip https://bashupload.com/`
+
