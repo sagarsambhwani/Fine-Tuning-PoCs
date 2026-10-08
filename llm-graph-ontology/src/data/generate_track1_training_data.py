@@ -329,7 +329,7 @@ def generate_sample(rng: random.Random, sample_id: str, task_type: str) -> Dict[
     else:
         raise ValueError(f"Unknown task type: {task_type}")
 
-def generate_track1_dataset(total_train: int = 1200, total_val: int = 150, seed: int = 42):
+def generate_track1_dataset(total_train: int = 1200, total_val: int = 150, seed: int = 42, out_dir: Path = None):
     """Generates train.jsonl and val.jsonl datasets with strict anti-leakage guarantee."""
     assert_anti_leakage()
     rng = random.Random(seed)
@@ -340,7 +340,12 @@ def generate_track1_dataset(total_train: int = 1200, total_val: int = 150, seed:
         ("link_prediction", 0.30)
     ]
 
-    out_dir = Path("llm-graph-ontology/data/processed")
+    if out_dir is None:
+        try:
+            out_dir = Path(__file__).resolve().parents[2] / "data" / "processed"
+        except Exception:
+            out_dir = Path("data/processed")
+    out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # Generate Train split
