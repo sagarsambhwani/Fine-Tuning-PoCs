@@ -1,0 +1,25 @@
+{
+  "dataset_name": "track1_pure_llm_legal_graph_sft",
+  "total_train_samples": 1200,
+  "total_val_samples": 150,
+  "train_task_breakdown": {
+    "multihop_reasoning": 382,
+    "triplet_extraction": 467,
+    "link_prediction": 351
+  },
+  "val_task_breakdown": {
+    "multihop_reasoning": 44,
+    "link_prediction": 52,
+    "triplet_extraction": 54
+  },
+  "anti_leakage_status": "VERIFIED_ZERO_OVERLAP",
+  "benchmark_prohibited_entities_count": 36,
+  "train_val_entity_pool_counts": {
+    "plaintiffs": 30,
+    "defendants": 30,
+    "courts": 12,
+    "claims": 12,
+    "precedents": 12,
+    "remedies": 12
+  }
+}
