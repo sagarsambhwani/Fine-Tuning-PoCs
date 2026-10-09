@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "webnlg_human_000",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Abilene, Texas is served by the Abilene regional airport.",
+    "target_triples": [
+      {
+        "subject": "Abilene Regional Airport",
+        "predicate": "cityServed",
+        "object": "Abilene, Texas"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_001",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport can be found in Madrid, Paracuellos de Jarama, San Sebasti\u00e1n de los Reyes and Alcobendas.",
+    "target_triples": [
+      {
+        "subject": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+        "predicate": "location",
+        "object": "Madrid, Paracuellos de Jarama, San Sebasti\u00e1n de los Reyes and Alcobendas"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_002",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The runway name of Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is 18L/36R.",
+    "target_triples": [
+      {
+        "subject": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+        "predicate": "runwayName",
+        "object": "18L/36R"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_003",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Afonso Pena International Airport ICAO Location Idenitifier is SBCT.",
+    "target_triples": [
+      {
+        "subject": "Afonso Pena International Airport",
+        "predicate": "ICAO Location Identifier",
+        "object": "SBCT"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_004",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Afonso Pena International Airport serves the city of Curitiba.",
+    "target_triples": [
+      {
+        "subject": "Afonso Pena International Airport",
+        "predicate": "cityServed",
+        "object": "Curitiba"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_005",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The Al Taqaddum Air Base serves the city of Fallujah.",
+    "target_triples": [
+      {
+        "subject": "Al-Taqaddum Air Base",
+        "predicate": "cityServed",
+        "object": "Fallujah"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_006",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The runway length of Al-Taqaddum Air Base is 3684.0.",
+    "target_triples": [
+      {
+        "subject": "Al-Taqaddum Air Base",
+        "predicate": "runwayLength",
+        "object": "3684.0"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_007",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Alderney Airport runway name is 14/32.",
+    "target_triples": [
+      {
+        "subject": "Alderney Airport",
+        "predicate": "runwayName",
+        "object": "14/32"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_008",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The runway length at Allama Iqbal International Airport is 3,360.12.",
+    "target_triples": [
+      {
+        "subject": "Allama Iqbal International Airport",
+        "predicate": "runwayLength",
+        "object": "3360.12"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_009",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The first runway at Amsterdam's Schiphol Airport is known as Number 18.",
+    "target_triples": [
+      {
+        "subject": "Amsterdam Airport Schiphol",
+        "predicate": "1st runway Number",
+        "object": "18"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_010",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The 5th runway at Amsterdam airport Schiphol has an asphalt surfacing.",
+    "target_triples": [
+      {
+        "subject": "Amsterdam Airport Schiphol",
+        "predicate": "5th runway SurfaceType",
+        "object": "Asphalt"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_011",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Amsterdam Airport Schiphol runway name is 06/24 Kaagbaan.",
+    "target_triples": [
+      {
+        "subject": "Amsterdam Airport Schiphol",
+        "predicate": "runwayName",
+        "object": "06/24 'Kaagbaan"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_012",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Andrews County Airport is 973 metres above sea level.",
+    "target_triples": [
+      {
+        "subject": "Andrews County Airport",
+        "predicate": "elevationAboveTheSeaLevel (in metres)",
+        "object": "973.0"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_013",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The Andrews County Airport is owned by Andrews County, Texas.",
+    "target_triples": [
+      {
+        "subject": "Andrews County Airport",
+        "predicate": "owner",
+        "object": "Andrews County, Texas"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_014",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The runway length of Andrews County Airport is 896.",
+    "target_triples": [
+      {
+        "subject": "Andrews County Airport",
+        "predicate": "runwayLength",
+        "object": "896.0"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_015",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Angola International Airport is the first runway made of asphalt.",
+    "target_triples": [
+      {
+        "subject": "Angola International Airport",
+        "predicate": "1st runway SurfaceType",
+        "object": "Asphalt"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_016",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Antwerp International Airport is 12 metres above sea level.",
+    "target_triples": [
+      {
+        "subject": "Antwerp International Airport",
+        "predicate": "elevationAboveTheSeaLevel (in metres)",
+        "object": "12.0"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_017",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The Antwerp International Airport is operated by the Flemish Government.",
+    "target_triples": [
+      {
+        "subject": "Antwerp International Airport",
+        "predicate": "operatingOrganisation",
+        "object": "Flemish Government"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_018",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The runway length of Appleton International Airport is 2,439.",
+    "target_triples": [
+      {
+        "subject": "Appleton International Airport",
+        "predicate": "runwayLength",
+        "object": "2439.0"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_019",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Ardmore Airport (New Zealand) runway length is 518.0.",
+    "target_triples": [
+      {
+        "subject": "Ardmore Airport (New Zealand)",
+        "predicate": "runwayLength",
+        "object": "518.0"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_020",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "UTAA is the ICAO Location Identifier of Ashgabat International Airport.",
+    "target_triples": [
+      {
+        "subject": "Ashgabat International Airport",
+        "predicate": "ICAO Location Identifier",
+        "object": "UTAA"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_021",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The runway name of Ashgabat International Airport is 11/29.",
+    "target_triples": [
+      {
+        "subject": "Ashgabat International Airport",
+        "predicate": "runwayName",
+        "object": "11/29"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_022",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Atlantic City International Airport owner is South Jersey Transportation Authority.",
+    "target_triples": [
+      {
+        "subject": "Atlantic City International Airport",
+        "predicate": "owner",
+        "object": "South Jersey Transportation Authority"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_023",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The name of the runway at Atlantic City International Airport is \"13/31\".",
+    "target_triples": [
+      {
+        "subject": "Atlantic City International Airport",
+        "predicate": "runwayName",
+        "object": "13/31"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_024",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The Dutch language is spoken in Belgium.",
+    "target_triples": [
+      {
+        "subject": "Belgium",
+        "predicate": "language",
+        "object": "Dutch language"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_025",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Curitiba is part of the South Region, Brazil.",
+    "target_triples": [
+      {
+        "subject": "Curitiba",
+        "predicate": "isPartOf",
+        "object": "South Region, Brazil"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_026",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Denmark demonym is Danes.",
+    "target_triples": [
+      {
+        "subject": "Denmark",
+        "predicate": "demonym",
+        "object": "Danes"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_027",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Fallujah is in the country of Iraq.",
+    "target_triples": [
+      {
+        "subject": "Fallujah",
+        "predicate": "country",
+        "object": "Iraq"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_028",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Greenville, Wisconsin is in the U.S.A.",
+    "target_triples": [
+      {
+        "subject": "Greenville, Wisconsin",
+        "predicate": "country",
+        "object": "United States"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_029",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Greenville, Wisconsin is part of Grand Chute, Wisconsin.",
+    "target_triples": [
+      {
+        "subject": "Greenville, Wisconsin",
+        "predicate": "isPartOf",
+        "object": "Grand Chute, Wisconsin"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_030",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Iraq language is Arabic.",
+    "target_triples": [
+      {
+        "subject": "Iraq",
+        "predicate": "language",
+        "object": "Arabic"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_031",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Madrid is in the country of Spain.",
+    "target_triples": [
+      {
+        "subject": "Madrid",
+        "predicate": "country",
+        "object": "Spain"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_032",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Maple Ridge Township in Alpena County, Michigan is part of the United States.",
+    "target_triples": [
+      {
+        "subject": "Maple Ridge Township, Alpena County, Michigan",
+        "predicate": "isPartOf",
+        "object": "United States"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_033",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The leader of Pakistan is Sardar Ayaz Sadiq.",
+    "target_triples": [
+      {
+        "subject": "Pakistan",
+        "predicate": "leaderName",
+        "object": "Sardar Ayaz Sadiq"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_034",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "New Jersey is a region served by the Port Authority of New York and New Jersey.",
+    "target_triples": [
+      {
+        "subject": "Port Authority of New York and New Jersey",
+        "predicate": "regionServed",
+        "object": "New Jersey"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_035",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "Houston is the largest city in Texas.",
+    "target_triples": [
+      {
+        "subject": "Texas",
+        "predicate": "largestCity",
+        "object": "Houston"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_036",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The USAF was involved in the 1986 bombing of Libya.",
+    "target_triples": [
+      {
+        "subject": "United States Air Force",
+        "predicate": "battles",
+        "object": "1986 United States bombing of Libya"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_037",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Airport",
+    "input_text": "The United States Air Force has a Boeing C-17 Globemaster III transport aircraft.",
+    "target_triples": [
+      {
+        "subject": "United States Air Force",
+        "predicate": "transportAircraft",
+        "object": "Boeing C-17 Globemaster III"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_038",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Monument",
+    "input_text": "The 11th Mississippi Infantry Monument was established in the year 2000.",
+    "target_triples": [
+      {
+        "subject": "11th Mississippi Infantry Monument",
+        "predicate": "established",
+        "object": "2000"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_039",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Monument",
+    "input_text": "To the southeast of Adams County, Pennsylvania lies Carroll County, Maryland.",
+    "target_triples": [
+      {
+        "subject": "Adams County, Pennsylvania",
+        "predicate": "has to its southeast",
+        "object": "Carroll County, Maryland"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_040",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Monument",
+    "input_text": "Artur Rasizade was an Azerbaijan leader.",
+    "target_triples": [
+      {
+        "subject": "Azerbaijan",
+        "predicate": "leader",
+        "object": "Artur Rasizade"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_041",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Monument",
+    "input_text": "Prime Minister of Azerbaijan is the official title of the leader of Azerbaijan.",
+    "target_triples": [
+      {
+        "subject": "Azerbaijan",
+        "predicate": "leaderTitle",
+        "object": "Prime Minister of Azerbaijan"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_042",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Monument",
+    "input_text": "The Native name of the Baku Turkish Martyrs' Memorial is \"T\u00fcrk Sehitleri Aniti\".",
+    "target_triples": [
+      {
+        "subject": "Baku Turkish Martyrs' Memorial",
+        "predicate": "nativeName",
+        "object": "T\u00fcrk \u015eehitleri An\u0131t\u0131"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_043",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "11 Diagonal Street is located in South Africa.",
+    "target_triples": [
+      {
+        "subject": "11 Diagonal Street",
+        "predicate": "location",
+        "object": "South Africa"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_044",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "250 Delaware Avenue has the Postmodern style of architecture.",
+    "target_triples": [
+      {
+        "subject": "250 Delaware Avenue",
+        "predicate": "architecturalStyle",
+        "object": "Postmodern architecture"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_045",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "300 North LaSalle is located in Chicago.",
+    "target_triples": [
+      {
+        "subject": "300 North LaSalle",
+        "predicate": "location",
+        "object": "Chicago"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_046",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "George Winkler was the architect of 320 South Boston Building.",
+    "target_triples": [
+      {
+        "subject": "320 South Boston Building",
+        "predicate": "architect",
+        "object": "George Winkler"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_047",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "The building of 320 South Boston Building started in 1910.",
+    "target_triples": [
+      {
+        "subject": "320 South Boston Building",
+        "predicate": "buildingStartDate",
+        "object": "1910"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_048",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "The AC Hotel Bella Sky Copenhagen has 814 rooms.",
+    "target_triples": [
+      {
+        "subject": "AC Hotel Bella Sky Copenhagen",
+        "predicate": "numberOfRooms",
+        "object": "814"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_049",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "The architects James Pain and George Richard Pain designed Adare Manor,.",
+    "target_triples": [
+      {
+        "subject": "Adare Manor",
+        "predicate": "architect",
+        "object": "James Pain and George Richard Pain,"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_050",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Adisham Hall is located in Haputale.",
+    "target_triples": [
+      {
+        "subject": "Adisham Hall",
+        "predicate": "location",
+        "object": "Haputale"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_051",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Akita Museum of Art is located in Japan.",
+    "target_triples": [
+      {
+        "subject": "Akita Museum of Art",
+        "predicate": "country",
+        "object": "Japan"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_052",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "The College of William and Mary is the owner of the Alan B. Miller Hall.",
+    "target_triples": [
+      {
+        "subject": "Alan B. Miller Hall",
+        "predicate": "owner",
+        "object": "College of William & Mary"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_053",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "The address for Amdavad ni Gufa is Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road.",
+    "target_triples": [
+      {
+        "subject": "Amdavad ni Gufa",
+        "predicate": "address",
+        "object": "Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_054",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Asher and Mary Isabelle Richardson House has the reference number 88002539 in the National Register of Historic Places.",
+    "target_triples": [
+      {
+        "subject": "Asher and Mary Isabelle Richardson House",
+        "predicate": "ReferenceNumber in the National Register of Historic Places",
+        "object": "88002539"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_055",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Julia Morgan was the architect of the grounds of Asilomar Conference.",
+    "target_triples": [
+      {
+        "subject": "Asilomar Conference Grounds",
+        "predicate": "architect",
+        "object": "Julia Morgan"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_056",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Asilomar Conference Grounds is designed based on the architecture style of \"Arts and Crafts Movement and American craftsman Bungalows\".",
+    "target_triples": [
+      {
+        "subject": "Asilomar Conference Grounds",
+        "predicate": "architecture",
+        "object": "Arts and Crafts Movement and American craftsman Bungalows"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_057",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "The Asilomar Conference Grounds were constructed in 1913.",
+    "target_triples": [
+      {
+        "subject": "Asilomar Conference Grounds",
+        "predicate": "yearOfConstruction",
+        "object": "1913"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_058",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Asser Levy Public Baths are located in New York City.",
+    "target_triples": [
+      {
+        "subject": "Asser Levy Public Baths",
+        "predicate": "location",
+        "object": "New York City"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_059",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Buffalo New York is part of Erie County New York.",
+    "target_triples": [
+      {
+        "subject": "Buffalo, New York",
+        "predicate": "isPartOf",
+        "object": "Erie County, New York"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_060",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "The leader of Buffalo, New York is Byron Brown.",
+    "target_triples": [
+      {
+        "subject": "Buffalo, New York",
+        "predicate": "leaderName",
+        "object": "Byron Brown"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_061",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "County Limerick is a part of Munster.",
+    "target_triples": [
+      {
+        "subject": "County Limerick",
+        "predicate": "isPartOf",
+        "object": "Munster"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_062",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Cr\u00edona N\u00ed Dh\u00e1laigh was Lord Mayor of Dublin.",
+    "target_triples": [
+      {
+        "subject": "Dublin",
+        "predicate": "leaderName",
+        "object": "Cr\u00edona N\u00ed Dh\u00e1laigh"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_063",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Mulatu Teshome is an Ethiopian leader.",
+    "target_triples": [
+      {
+        "subject": "Ethiopia",
+        "predicate": "leaderName",
+        "object": "Mulatu Teshome"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_064",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "The demonym for people living in India is Indian.",
+    "target_triples": [
+      {
+        "subject": "India",
+        "predicate": "demonym",
+        "object": "Indian people"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_065",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Julia Morgan has designed many significant buildings, including the Los Angeles Herald Examiner building.",
+    "target_triples": [
+      {
+        "subject": "Julia Morgan",
+        "predicate": "significantBuilding",
+        "object": "Los Angeles Herald-Examiner"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_066",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Live Nation Entertainment is located at Beverly Hills, California.",
+    "target_triples": [
+      {
+        "subject": "Live Nation Entertainment",
+        "predicate": "location",
+        "object": "Beverly Hills, California"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_067",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Manhattan is part of New York.",
+    "target_triples": [
+      {
+        "subject": "Manhattan",
+        "predicate": "isPartOf",
+        "object": "New York"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_068",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "New York City is a part of New Netherland.",
+    "target_triples": [
+      {
+        "subject": "New York City",
+        "predicate": "isPartOf",
+        "object": "New Netherland"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_069",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "Pacific Grove, California is part of California.",
+    "target_triples": [
+      {
+        "subject": "Pacific Grove, California",
+        "predicate": "isPartOf",
+        "object": "California"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_070",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "The white South Africans are an ethnic group of South Africa.",
+    "target_triples": [
+      {
+        "subject": "South Africa",
+        "predicate": "ethnicGroup",
+        "object": "White South African"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_071",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "Building",
+    "input_text": "A leader in the United Kingdom is Elizabeth 11.",
+    "target_triples": [
+      {
+        "subject": "United Kingdom",
+        "predicate": "leaderName",
+        "object": "Elizabeth II"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_072",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "The ISBN number of 1634: The Ram Rebellion is 1-4165-2060-0.",
+    "target_triples": [
+      {
+        "subject": "1634: The Ram Rebellion",
+        "predicate": "ISBN number",
+        "object": "1-4165-2060-0"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_073",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "Eric Flint is the author of 1634: The Ram Rebellion.",
+    "target_triples": [
+      {
+        "subject": "1634: The Ram Rebellion",
+        "predicate": "author",
+        "object": "Eric Flint"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_074",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "1634: The Ram Rebellion was published in print.",
+    "target_triples": [
+      {
+        "subject": "1634: The Ram Rebellion",
+        "predicate": "mediaType",
+        "object": "Print"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_075",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "The AIDS journal was published in the United Kingdom.",
+    "target_triples": [
+      {
+        "subject": "AIDS (journal)",
+        "predicate": "country",
+        "object": "United Kingdom"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_076",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "A Glastonbury Romance has the OCLC number 76798317.",
+    "target_triples": [
+      {
+        "subject": "A Glastonbury Romance",
+        "predicate": "OCLC number",
+        "object": "76798317"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_077",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "\"A Glastonbury Romance \" can be found in hardcover.",
+    "target_triples": [
+      {
+        "subject": "A Glastonbury Romance",
+        "predicate": "mediaType",
+        "object": "Hardcover"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_078",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "A Long Long Way is written in the English language.",
+    "target_triples": [
+      {
+        "subject": "A Long Long Way",
+        "predicate": "language",
+        "object": "English language"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_079",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "Diane Duane wrote A Wizard of Mars.",
+    "target_triples": [
+      {
+        "subject": "A Wizard of Mars",
+        "predicate": "author",
+        "object": "Diane Duane"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_080",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "The Abhandlungen aus dem Mathematischen Seminar der Universit\u00e4t Hamburg ISSN number is \"0025-5858\".",
+    "target_triples": [
+      {
+        "subject": "Abhandlungen aus dem Mathematischen Seminar der Universit\u00e4t Hamburg",
+        "predicate": "ISSN number",
+        "object": "0025-5858"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_081",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "Garth Nix is the author of Above the Veil.",
+    "target_triples": [
+      {
+        "subject": "Above the Veil",
+        "predicate": "author",
+        "object": "Garth Nix"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_082",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "Above the Veil was produced in Print.",
+    "target_triples": [
+      {
+        "subject": "Above the Veil",
+        "predicate": "mediaType",
+        "object": "Print"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_083",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "Acta Palaeontologica Polonica has the ISSN number 0567-7920.",
+    "target_triples": [
+      {
+        "subject": "Acta Palaeontologica Polonica",
+        "predicate": "ISSN number",
+        "object": "0567-7920"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_084",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "The journal Addiction has the LCCN number 93645978.",
+    "target_triples": [
+      {
+        "subject": "Addiction (journal)",
+        "predicate": "LCCN number",
+        "object": "93645978"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_085",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "Addiction journal is about addiction.",
+    "target_triples": [
+      {
+        "subject": "Addiction (journal)",
+        "predicate": "academicDiscipline",
+        "object": "Addiction"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_086",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "Aenir is written in English.",
+    "target_triples": [
+      {
+        "subject": "Aenir",
+        "predicate": "language",
+        "object": "English language"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_087",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "Alcatraz Versus the Evil Librarians is from The United States.",
+    "target_triples": [
+      {
+        "subject": "Alcatraz Versus the Evil Librarians",
+        "predicate": "country",
+        "object": "United States"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_088",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "The book Alcatraz Versus the Evil Librarians is written in English.",
+    "target_triples": [
+      {
+        "subject": "Alcatraz Versus the Evil Librarians",
+        "predicate": "language",
+        "object": "English language"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_089",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "The American Journal of Mathematics studies mathematics.",
+    "target_triples": [
+      {
+        "subject": "American Journal of Mathematics",
+        "predicate": "academicDiscipline",
+        "object": "Mathematics"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_090",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "The novel \"Castle\" is written in English.",
+    "target_triples": [
+      {
+        "subject": "Castle (novel)",
+        "predicate": "language",
+        "object": "English language"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_091",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "Burbank California is the birth place of Eric Flint.",
+    "target_triples": [
+      {
+        "subject": "Eric Flint",
+        "predicate": "birthPlace",
+        "object": "Burbank, California"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_092",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "Macmillan publishers are the parent company of Farrar, Straus and Giroux.",
+    "target_triples": [
+      {
+        "subject": "Farrar, Straus and Giroux",
+        "predicate": "parentCompany",
+        "object": "Macmillan Publishers"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_093",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "A Glastonbury Romance is John Cowper Powys notable work.",
+    "target_triples": [
+      {
+        "subject": "John Cowper Powys",
+        "predicate": "notableWork",
+        "object": "A Glastonbury Romance"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_094",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "The Soho Press is located in the U.S.",
+    "target_triples": [
+      {
+        "subject": "Soho Press",
+        "predicate": "country",
+        "object": "United States"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_095",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "The Secret Scripture is published by Faber and Faber.",
+    "target_triples": [
+      {
+        "subject": "The Secret Scripture",
+        "predicate": "publisher",
+        "object": "Faber and Faber"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_096",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "The United States has an ethnic group called Asian Americans.",
+    "target_triples": [
+      {
+        "subject": "United States",
+        "predicate": "ethnicGroup",
+        "object": "Asian Americans"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_097",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "English is the language of the United States.",
+    "target_triples": [
+      {
+        "subject": "United States",
+        "predicate": "language",
+        "object": "English language"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_098",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "WrittenWork",
+    "input_text": "A Glastonbury Romance preceded Weymouth Sands.",
+    "target_triples": [
+      {
+        "subject": "Weymouth Sands",
+        "predicate": "precededBy",
+        "object": "A Glastonbury Romance"
+      }
+    ],
+    "triple_count": 1
+  },
+  {
+    "id": "webnlg_human_099",
+    "source_benchmark": "WebNLG_v1_Human_Annotated",
+    "category": "SportsTeam",
+    "input_text": "Rolando Maran has managed AC Chievo Verona.",
+    "target_triples": [
+      {
+        "subject": "A.C. Chievo Verona",
+        "predicate": "manager",
+        "object": "Rolando Maran"
+      }
+    ],
+    "triple_count": 1
+  }
+]
