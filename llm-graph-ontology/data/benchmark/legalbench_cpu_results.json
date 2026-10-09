@@ -1,0 +1,9 @@
+{
+  "benchmark": "Stanford_LegalBench_SSLA",
+  "total_samples": 30,
+  "hardware": "cpu",
+  "base_accuracy": 0.9333,
+  "tuned_accuracy": 0.8,
+  "improvement_delta": -0.1333,
+  "analysis": "Specializing the model on strict knowledge graph ontology triples (FILES_CLAIM_AGAINST, ADJUDICATED_BY) induces an ontology regularization bias when evaluated on open-domain single-entity party extraction from messy human-written court docket filings."
+}
