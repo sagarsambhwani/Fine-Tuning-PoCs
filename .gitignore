@@ -5,7 +5,13 @@
 __pycache__/
 
 # Trained models and checkpoints
-models/
-**/models/
+models/*
+!models/README.md
+!models/.gitkeep
+*/models/*
+!*/models/README.md
+!*/models/.gitkeep
+!**/src/models/**
+*.pt
 *.safetensors
 *.bin
