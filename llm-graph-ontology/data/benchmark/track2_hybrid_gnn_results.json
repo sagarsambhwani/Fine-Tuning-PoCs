@@ -1,0 +1,7 @@
+{
+  "benchmark": "Task_C_Link_Prediction_50_Samples",
+  "base_model_accuracy": 24.0,
+  "track1_pure_llm_accuracy": 36.0,
+  "track2_hybrid_gnn_accuracy": 82.0,
+  "delta_improvement": 46.0
+}
