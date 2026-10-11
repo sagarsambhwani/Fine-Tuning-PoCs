@@ -1,0 +1,10 @@
+{
+  "benchmark": "Stanford_LegalBench_SSLA_Hybrid_Loop",
+  "base_llm_accuracy": 93.33,
+  "tuned_llm_accuracy": 80.00,
+  "hybrid_loop_accuracy": 73.33,
+  "evaluated_cases": 30,
+  "hardware": "cuda",
+  "elapsed_minutes": 0.15,
+  "architecture": "Qwen2.5-1.5B-Instruct + RGCN (d=128) + 2-Layer MLP Projector (d=1536)"
+}
