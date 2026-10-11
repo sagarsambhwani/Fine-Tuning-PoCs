@@ -1,0 +1,9 @@
+{
+  "dataset": "WebNLG_Official_Gold_Triples",
+  "num_nodes": 156,
+  "num_relations": 48,
+  "test_edges": 20,
+  "random_baseline": 2.08,
+  "gnn_accuracy": 5.0,
+  "correct": 1
+}
